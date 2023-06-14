@@ -1,4 +1,70 @@
-.top-nav {
-  display: flex;
-  flex-direction: row;
+nav {
+position: absolute;
+width: 1280px;
+height: 104px;
+left: 0px;
+top: 0px;
+
+background: #264653;
+}
+
+.nav-charlie {
+  position: absolute;
+  width: 459px;
+  height: 95px;
+  left: 43px;
+  top: 5px;
+  
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 95px;
+  /* identical to box height */
+  
+  
+  color: #F2E9E4;
+}
+
+.nav-links {
+  position: absolute;
+  width: 596px;
+  height: 44px;
+  left: 646px;
+  top: 22px;  
+}
+
+.nav-anchors {
+/* position: absolute; */
+width: 55px;
+height: 44px;
+left: 905px;
+top: 22px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 44px;
+
+color: #F2E9E4;
+}
+
+.nav-resume-btn {
+position: absolute;
+width: 121px;
+height: 39px;
+left: 1138px;
+top: 27px;
+
+background: #D9D9D9;
+border-radius: 8px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 44px;
+
+color: #F2E9E4;
 }
