@@ -1,0 +1,29 @@
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+
+  background: #F2E9E4;
+}
+
+.intro-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+p {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.intro-photo {
+  width: 24rem;
+  height: 25rem;
+}
