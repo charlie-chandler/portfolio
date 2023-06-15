@@ -1,8 +1,8 @@
 .intro-container {
   display: flex;
   flex-direction: row;
-  padding-top: 15rem;
-  padding-bottom: 5rem;
+  width: 100%;
+  padding: 15rem 0 5rem 5rem;
 
   background: #F2E9E4;
 }
@@ -10,7 +10,25 @@
 .intro-copy {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  text-align: left;
+}
+
+.hi-charlie {
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 96px;
+
+display: inline;
+background-image: linear-gradient(#F2E9E4 60%, #D9D9D9 25%);
+
+/* background-color: #D9D9D9; */
+color: #000000;
+}
+
+.highlight {
+  color: #2A9D8F;
 }
 
 p {
@@ -26,4 +44,5 @@ color: #000000;
 .intro-photo {
   width: 24rem;
   height: 25rem;
+  float: right;
 }

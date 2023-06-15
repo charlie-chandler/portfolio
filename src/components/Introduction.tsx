@@ -7,6 +7,7 @@ function Introduction() {
   const introContainer = classNames('intro-container');
   const introCopy = classNames('intro-copy');
   const hiCharlie = classNames('hi-charlie');
+  const highlight = classNames('highlight');
   const introPhoto = classNames('intro-photo');
 
 
@@ -14,7 +15,7 @@ function Introduction() {
     <div>
       <div className={introContainer}>
         <div className={introCopy}>
-          <div className={hiCharlie}>Hi I'm Charlie</div>
+          <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
           <p>
             A full stack developer in Vancouver, BC.
             <br />
