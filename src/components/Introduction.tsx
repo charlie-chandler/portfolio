@@ -32,9 +32,9 @@ function Introduction() {
         </div>
       </div>
       <div className={iconContainer}>
-        <img src="icons/email.png" alt="email-icon"></img>
-        <img src="icons/linkedin.png" alt="linkedin-icon"></img>
-        <img src="icons/github.png" alt="github-icon"></img>
+        <a href="mailto:charlesmjchandler@gmail.com?subject=Nice to meet you!&amp;body=Hi Charlie,"><img src="icons/email.png" alt="email-icon"></img></a>
+        <a href="https://www.linkedin.com/in/charlesmchandler/"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
+        <a href="https://github.com/charlie-chandler"><img src="icons/github.png" alt="github-icon"></img></a>
       </div>
     </div>
   )
