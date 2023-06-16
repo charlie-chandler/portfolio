@@ -1,47 +1,65 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background: #F2E9E4;
+}
+
 .intro-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  padding: 15rem 0 5rem 5rem;
+  height: 50rem;
+  padding: 2rem 0 5rem 5rem;
 
-  background: #F2E9E4;
+  /* background: #F2E9E4; */
 }
 
 .intro-copy {
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-left: 4rem;
 }
 
 .hi-charlie {
-font-family: 'Reenie Beanie';
-font-style: normal;
-font-weight: 500;
-font-size: 96px;
-line-height: 96px;
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7rem;
+  line-height: 6rem;
 
-display: inline;
-background-image: linear-gradient(#F2E9E4 60%, #D9D9D9 25%);
+  display: inline;
+  background-image: linear-gradient(#F2E9E4 60%, #D9D9D9 25%);
 
-color: #000000;
+  color: #000000;
 }
 
 .highlight {
   color: #2A9D8F;
 }
 
-p {
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
+.intro-container p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 55px;
 
-color: #000000;
+  color: #000000;
 }
 
 .intro-photo {
-  width: 24rem;
-  height: 25rem;
+  width: 28rem;
+  height: 29rem;
+  margin-right: 8rem;
   float: right;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+ 
+  width: 10%;
 }

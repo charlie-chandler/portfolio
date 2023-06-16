@@ -4,15 +4,18 @@ import "../styles/Introduction.css";
 
 function Introduction() {
 
+  const mainContainer = classNames('main-container');
   const introContainer = classNames('intro-container');
   const introCopy = classNames('intro-copy');
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
   const introPhoto = classNames('intro-photo');
+  const iconContainer = classNames('icon-container');
+
 
 
   return (
-    <div>
+    <div className={mainContainer}>
       <div className={introContainer}>
         <div className={introCopy}>
           <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
@@ -21,12 +24,17 @@ function Introduction() {
             <br />
             I'm ambitious, curious and enthusiastic.
             <br />
-            If I can offer any value to you - feel free to get in touch.
+            Let's connect.
           </p>
         </div>
         <div className={introPhoto}>
           <img src="images/blob_and_photo2.png" alt="green-blob" className={introPhoto} />
         </div>
+      </div>
+      <div className={iconContainer}>
+        <img src="icons/email.png" alt="email-icon"></img>
+        <img src="icons/linkedin.png" alt="linkedin-icon"></img>
+        <img src="icons/github.png" alt="github-icon"></img>
       </div>
     </div>
   )
