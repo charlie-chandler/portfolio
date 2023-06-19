@@ -64,8 +64,11 @@
   /* padding-bottom: 1.5rem; */
 }
 
-.icon-container img {
+.icon-container a {
   margin: 0 1rem 2.5rem 1rem;
+}
+
+.icon-container img {
   height: 5rem;
   width: 5rem; 
 
