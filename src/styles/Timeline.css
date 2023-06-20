@@ -28,7 +28,7 @@
   padding: 10px 50px;
   position: relative;
   width: 50%;
-  background: #516259;
+  /* background: #516259; */
 }
 
 .text-box {
@@ -44,5 +44,66 @@
 }
 
 .right-container {
-  left: 50%;
+  left: 52%;
+}
+
+.container img {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+
+  border: solid;
+  border-color: #D9D9D9;
+  border-radius: 50%;
+  border-width: 3px;
+
+  right: -45px;
+  top: 3.2rem;
+  z-index: 10;
+}
+
+.right-container img {
+  left: -42px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 38rem;
+  top: 0;
+  left: 51%;
+  margin-left: -1px;
+  z-index: 1; /* Might have to change this to 1 - curently doesnt appear*/
+  background: #D9D9D9;
+}
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 57px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #D9D9D9;
+  right: -15px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 57px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #D9D9D9;
+  left: -15px;
 }
