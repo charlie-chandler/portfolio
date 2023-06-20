@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import TopNav from './components/TopNav';
 import Introduction from './components/Introduction';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
     <div className="App">
       <TopNav/>
       <Introduction/>
+      <Timeline/>
       <p>
       Rest of the app container will go here
       </p>
