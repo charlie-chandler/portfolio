@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: #778F82;
+  width: 100%;
+  height: 50rem;
+}
+
+.title {
+  font-family: 'Oswald';
+  font-style: regular;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 95px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  /* margin: 100px auto; */
+}
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  background: #516259;
+}
+
+.text-box {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #D9D9D9;
+}
+
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
