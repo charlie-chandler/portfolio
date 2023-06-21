@@ -74,8 +74,7 @@ function Timeline() {
             <small>2015</small>
             <p>Moved to Canada to complete my BA. </p>
             <ul>
-              <li>Had some time during lockdown so learnt how to build a basic site using HTML and CSS.</li>
-              <li>It was not very good! But I loved discovering how creating coding is, and the experience stuck with me.</li>
+              <li>Majored in Psychology. Courses include: research methods, decision making, linguistics, behavioural psychology, statistics, neuroscience, business strategy, and innovation in business.</li>
               <li>Fell in love with the country and began a new chapter of my life that would last for 8 years (and counting!)</li>
             </ul>
             <span className={rightContainerArrow}></span>
