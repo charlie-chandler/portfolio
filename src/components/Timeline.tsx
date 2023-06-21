@@ -25,7 +25,6 @@ function Timeline() {
           <div className={textBox}>
             <h2>Lighthouse Labs</h2>
             <small>2023</small>
-            {/* Maybe these could be bullet points instead of p tags? */}
             <p>After 3+ years of tech support and ops, I decided to pursue my passion and learn how to build the software I was already helping patients to understand.
             </p>
             <ul>
