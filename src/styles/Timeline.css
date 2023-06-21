@@ -130,6 +130,22 @@
   font-size: 1.2rem;
 }
 
+.text-box p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.text-box ul {
+  text-align: left;
+  line-height: 22px;
+  margin-left: 1rem;
+}
+
+.text-box li {
+  padding: 5px;
+}
+
 .left-container-arrow {
   height: 0;
   width: 0;
