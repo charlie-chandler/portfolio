@@ -1,0 +1,10 @@
+.projects-background {
+  background: #778F82;
+  height: 70rem;
+}
+
+.projects-background p {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Lato';
+}
