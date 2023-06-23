@@ -9,6 +9,7 @@ function Attributes () {
 
   const attributeContainer = classNames('attribute-container');
   const attributeBox = classNames('attribute-box');
+  const strengthBullets = classNames('strength-bullets');
 
   return (
     <div className={background}>
@@ -29,8 +30,16 @@ function Attributes () {
           <h2>Attribute 3</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
         </div>
-
       </div>
+      
+        <div className={strengthBullets}>
+          <ul>
+            <li>Experienced in ...</li>
+            <li>Proficient in ...</li>
+            <li>Passion for ...</li>
+            <li>Determined to ...</li>
+          </ul>
+        </div>
     </div>
   )
 }

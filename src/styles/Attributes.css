@@ -22,3 +22,15 @@
   margin: 2rem 0 2rem 0;
   font-size: 30px;
 }
+
+.strength-bullets {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 8rem 0 10rem;
+  font-size: 1.8rem;
+}
+
+.strength-bullets li {
+  padding: 0.5rem;
+}
