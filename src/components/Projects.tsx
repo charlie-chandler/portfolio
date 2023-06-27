@@ -20,21 +20,22 @@ function Projects() {
     <div className={background}>
       <h1 className={title}>My Projects</h1>
       <p>Click on any project for more details</p>
-      <section className={carousel} id="image-carousel" aria-label="Website panel images">
-        <div className={track}>
-          <ul className={list}>
-            <li className={slide}>
-              <img src="image01.jpg" alt=""/>
-            </li>
-            <li className={slide}>
-              <img src="image02.jpg" alt=""/>
-            </li>
-            <li className={slide}>
-              <img src="image03.jpg" alt=""/>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Splide aria-label="My Carousel" hasTrack={false}>
+        <SplideTrack>
+          <SplideSlide>
+            <img src="images/mojo_panel.png" alt="Mojo website" />
+          </SplideSlide>
+        </SplideTrack>
+        <SplideSlide>
+          <img src="images/scheduler_panel.png" alt="Scheduler website" />
+        </SplideSlide>
+        <SplideSlide>
+          <img src="images/jungle_panel.png" alt="Jungle website" />
+        </SplideSlide>
+        <SplideSlide>
+          <img src="images/Tweeter_panel.png" alt="Tweeter website" />
+        </SplideSlide>
+      </Splide>
     </div>
   )
 }
