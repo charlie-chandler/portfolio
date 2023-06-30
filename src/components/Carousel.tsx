@@ -1,8 +1,8 @@
 import React from "react"
 import classNames from "classnames";
 import "../styles/Projects.css";
-import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css/core';
+// import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
+// import '@splidejs/react-splide/css/core';
 
 function Projects() {
 
