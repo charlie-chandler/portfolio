@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react"
 import classNames from "classnames";
-
 import "../styles/Carousel.css";
-import "./slider.css";
+
 import SliderContent from "./SliderContent";
 import Dots from "./Dots";
 import Arrows from "./Arrows";
 import SliderWindow from "./SliderWindow";
-
-// import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
-// import '@splidejs/react-splide/css/core';
 
 const len = SliderWindow.length - 1;
 
@@ -17,17 +13,15 @@ function Carousel(props: any) {
 
   const background = classNames('projects-background');
   const title = classNames('title');
-  const slide = classNames('splide__slide');
-  const wrapper = classNames('custom-wrapper');
 
   const [activeIndex, setActiveIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [activeIndex]);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, [activeIndex]);
 
   return (
     <div className={background}>
