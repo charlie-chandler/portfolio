@@ -15,15 +15,12 @@ function Projects() {
   const wrapper = classNames('custom-wrapper');
 
 
-
-
-
   return (
     <div className={background}>
       <h1 className={title}>My Projects</h1>
       <p>Click on any project for more details</p>
 
-      <Splide aria-label="My Carousel" hasTrack={false}>
+      {/* <Splide aria-label="My Carousel" hasTrack={false}>
         <div className={wrapper}>
           <SplideTrack>
             <SplideSlide className={slide}>
@@ -40,7 +37,9 @@ function Projects() {
             </SplideSlide>
           </SplideTrack>
         </div>
-      </Splide>
+      </Splide> */}
+
+      
     </div>
   )
 }

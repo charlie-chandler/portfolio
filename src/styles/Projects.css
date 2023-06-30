@@ -18,6 +18,13 @@
 
 
 .splide__slide img {
-  width: 100%;
-  height: 100%;
+  width: 60rem;
+  height: 40rem;
+  border-radius: 1%;
+}
+
+.splide__arrows {
+  position: relative; /* Add this rule to position the arrows relative to the carousel */
+  top: auto;
+  bottom: -45rem; 
 }
