@@ -6,19 +6,19 @@ import Tweeter from "../assets/tweeter_panel.png";
 
 export default [
   {
-    title: "Mojo",
+    title: "Mood Journal Web App",
     urls: Mojo,
   },
   {
-    title: "Scheduler",
+    title: "Interview Scheduler Web App",
     urls: Scheduler,
   },
   {
-    title: "Jungle",
+    title: "Plant Lovers E-Commerce Store",
     urls: Jungle,
   },
   {
-    title: "Tweeter",
+    title: "Twitter-like Social Media Platform",
     urls: Tweeter,
   },
 ];
