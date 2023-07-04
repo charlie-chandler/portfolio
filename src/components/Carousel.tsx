@@ -43,27 +43,6 @@ function Carousel(props: any) {
           onclick={(activeIndex: any) => setActiveIndex(activeIndex)}
         />
       </div>
-
-      {/* <Splide aria-label="My Carousel" hasTrack={false}>
-        <div className={wrapper}>
-          <SplideTrack>
-            <SplideSlide className={slide}>
-              <img src="images/mojo_panel.png" alt="Mojo website" />
-            </SplideSlide>
-            <SplideSlide className={slide}>
-              <img src="images/scheduler_panel.png" alt="Scheduler website" />
-            </SplideSlide>
-            <SplideSlide className={slide}>
-              <img src="images/jungle_panel.png" alt="Jungle website" />
-            </SplideSlide>
-            <SplideSlide className={slide}>
-              <img src="images/tweeter_panel.png" alt="Tweeter website" />
-            </SplideSlide>
-          </SplideTrack>
-        </div>
-      </Splide> */}
-
-
     </div>
   )
 }
