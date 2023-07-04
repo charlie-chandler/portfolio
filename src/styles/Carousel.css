@@ -20,12 +20,13 @@
 }
 
 .slider-container {
-  height: 50rem;
-  width: 70rem;
+  height: 55rem;
+  width: 74rem;
   position: relative;
   font-family: 'Lato';
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
 }
 
 .active {
@@ -53,12 +54,12 @@
 .slide-title,
 .slide-text {
   width: 100%;
-  height: 100%;
+  height: 5rem;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
   text-align: center;
-  top: 95%;
+  top: 98%;
   z-index: 10;
 }
 
@@ -70,6 +71,8 @@
 
 .prev,
 .next {
+  display: flex;
+  justify-content: center;
   color: transparent;
   cursor: pointer;
   z-index: 100;
@@ -80,7 +83,7 @@
   margin-top: -3rem;
   font-size: 40px;
   font-weight: bold;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .slider-container:hover .prev,.slider-container:hover .next {
@@ -96,15 +99,14 @@
 
 .next {
   right: 0;
-  border-radius: 5px 0px 0px 5px;
 }
 
 .all-dots {
   width: 100%;
-  height: 100%;
+  height: 2rem;
   position: absolute;
   display: flex;
-  top: 85%;
+  top: 87%;
   justify-content: center;
   z-index: 200;
 }
@@ -140,21 +142,3 @@
 }
 
 
-/* .custom-wrapper {
-  width: 75%;
-  height: 30rem;
-  margin: auto;
-}
-
-
-.splide__slide img {
-  width: 60rem;
-  height: 40rem;
-  border-radius: 1%;
-}
-
-.splide__arrows {
-  position: relative; /* Add this rule to position the arrows relative to the carousel */
-  /* top: auto;
-  bottom: -45rem; 
-} */
