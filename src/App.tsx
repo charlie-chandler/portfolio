@@ -5,7 +5,7 @@ import Introduction from './components/Introduction';
 import Timeline from './components/Timeline';
 import Attributes from './components/Attributes';
 import Carousel from './components/Carousel';
-
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Timeline/>
       <Attributes/>
       <Carousel/>
+      <Skills/>
       <p>
       Rest of the app container will go here
       </p>
