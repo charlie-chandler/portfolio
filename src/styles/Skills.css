@@ -16,6 +16,14 @@
   margin: 2rem 0 0 8rem;
 }
 
+.row > .skill-box-grey:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.row > .skill-box-grey:not(:first-child) {
+  margin-left: 2rem;
+}
+
 .skill-box-green {
   display: flex;
   flex-direction: column;
@@ -52,14 +60,14 @@
   align-items: center;
 }
 
-h2 {
+.row h2 {
   font-family: 'Oswald';
   font-weight: 400;
   font-size: 3rem;
   text-align: start;
 }
 
-h5 {
+.row h5 {
   font-family: 'Lato';
   font-weight: 400;
   font-size: 1rem;
