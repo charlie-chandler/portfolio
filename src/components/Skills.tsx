@@ -84,8 +84,6 @@ function Skills() {
           </div>
         </div>
 
-
-
         <div className={row}>
           {/* Systems/Databases */}
           <div className={skillBoxGrey}>
@@ -96,7 +94,7 @@ function Skills() {
                 <h5>Git</h5>
               </div>
               <div className={skillStamp}>
-                <img src='icons/sql.png'></img>
+                <img src='icons/sql_white.png'></img>
                 <h5>SQL</h5>
               </div>
               <div className={skillStamp}>
