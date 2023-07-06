@@ -72,14 +72,14 @@ function Skills() {
                 <img src='icons/bootstrap.png'></img>
                 <h5>Bootstrap</h5>
               </div>
-            <div className={skillStamp}>
-              <img src='icons/jquery.png'></img>
-              <h5>jQuery</h5>
-            </div>
-            <div className={skillStamp}>
-              <img src='icons/sass.png'></img>
-              <h5>SASS</h5>
-            </div>
+              <div className={skillStamp}>
+                <img src='icons/jquery.png'></img>
+                <h5>jQuery</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/sass.png'></img>
+                <h5>SASS</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -87,15 +87,89 @@ function Skills() {
 
 
         <div className={row}>
+          {/* Systems/Databases */}
+          <div className={skillBoxGrey}>
+            <h2>Systems/Databases</h2>
+            <div className={skillIconsRow}>
+              <div className={skillStamp}>
+                <img src='icons/git.png'></img>
+                <h5>Git</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/sql.png'></img>
+                <h5>SQL</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/postgres.png'></img>
+                <h5>Postgres</h5>
+              </div>
+            </div>
+          </div>
 
+          {/* Testing */}
+          <div className={skillBoxGreen}>
+            <h2>Testing</h2>
+            <div className={skillIconsRow}>
+              <div className={skillStamp}>
+                <img src='icons/mocha.png'></img>
+                <h5>Mocha</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/chai.png'></img>
+                <h5>Chai</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/cypress.png'></img>
+                <h5>Cypress</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/storybook.png'></img>
+                <h5>Storybook</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/jest.png'></img>
+                <h5>Jest</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/rspec.png'></img>
+                <h5>RSpec</h5>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className={row}>
-
+          {/* Tools */}
+          <div className={skillBoxGreen}>
+            <h2>Tools</h2>
+            <div className={skillIconsRow}>
+              <div className={skillStamp}>
+                <img src='icons/figma.png'></img>
+                <h5>Figma</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/postman.png'></img>
+                <h5>Postman</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/chartjs.png'></img>
+                <h5>Chart.js</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/photoshop.png'></img>
+                <h5>Photoshop</h5>
+              </div>
+              <div className={skillStamp}>
+                <img src='icons/illustrator.png'></img>
+                <h5>Illustrator</h5>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </div> {/* Container */}
 
-    </div>
+    </div>  // Background
+
   )
 }
 
