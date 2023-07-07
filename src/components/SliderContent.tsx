@@ -11,7 +11,6 @@ function SliderContent({ activeIndex, sliderImage }: any) {
         >
           <img className="slide-image" src={slide.urls} alt="" />
           <p className="slide-title">{slide.title}</p>
-          <h3 className="slide-text">{slide.description}</h3>
         </div>
       ))}
     </section>
