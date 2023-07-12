@@ -27,13 +27,30 @@ function Contact() {
           </div>
           <ul className={contactList}>
             <li className={contactListItem}>
-              <img src='icons/email.png'></img>
+              <img src='icons/email.png' alt="email logo"></img>
               <h5>charlesmjchandler@gmail.com</h5>
             </li>
+            <li className={contactListItem}>
+              <img src='icons/pin.png' alt="location pin"></img>
+              <h5>Vancouver, BC</h5>
+            </li>
+            <li className={contactListItem}>
+              <img src='icons/linkedin.png' alt="linkedin logo"></img>
+              <h5>charlesmchandler</h5>
+            </li>
+            <li className={contactListItem}>
+              <img src='icons/github.png' alt="github logo"></img>
+              <h5>charlie-chandler</h5>
+            </li>
+            <li className={contactListItem}>
+              <img src='icons/medium.png' alt="medium logo"></img>
+              <h5>cmchandler</h5>
+            </li>
           </ul>
-
         </div>
-        <div className={rightContainer}></div>
+        <div className={rightContainer}>
+          <img src="" alt=""/>
+        </div>
       </div>
     </div>
   )
