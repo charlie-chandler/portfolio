@@ -1,7 +1,7 @@
 .contact-background {
   background-color: #778F82;
   width: 100%;
-  height: 80rem;
+  height: 70rem;
   color: white;
   font-family: 'Lato';
 }
@@ -21,15 +21,30 @@
 .left-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
+  margin-left: 8rem;
 }
 
 .call-to-action {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  text-align: left;
 }
 
 .call-to-action span {
   color: #E6A439;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.contact-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0 1rem 0; 
 }
 
 .contact-list-item img {
@@ -38,6 +53,7 @@
 }
 
 .contact-list-item h5 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
+  margin-left: 1rem;
 }
