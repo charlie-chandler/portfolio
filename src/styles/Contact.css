@@ -1,0 +1,43 @@
+.contact-background {
+  background-color: #778F82;
+  width: 100%;
+  height: 80rem;
+  color: white;
+  font-family: 'Lato';
+}
+
+.title {
+  font-family: 'Oswald';
+  font-style: regular;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 95px;
+
+  display: flex;
+  justify-content: left;
+  padding: 4rem 0 3rem 8rem;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.call-to-action {
+  font-size: 1.5rem;
+}
+
+.call-to-action span {
+  color: #E6A439;
+}
+
+.contact-list-item img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.contact-list-item h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
