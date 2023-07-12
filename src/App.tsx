@@ -6,6 +6,7 @@ import Timeline from './components/Timeline';
 import Attributes from './components/Attributes';
 import Carousel from './components/Carousel';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Attributes/>
       <Carousel/>
       <Skills/>
+      <Contact/>
       <p>
       Rest of the app container will go here
       </p>
