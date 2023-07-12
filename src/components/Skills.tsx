@@ -134,7 +134,7 @@ function Skills() {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         <div className={row}>
           {/* Tools */}
