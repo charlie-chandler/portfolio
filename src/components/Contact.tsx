@@ -17,7 +17,7 @@ function Contact() {
 
   return (
     <div className={background}>
-      <h1 className={title}>Contact</h1>
+      <h1 className={title}>Want to work together?</h1>
       <div className={mainContainer}>
         <div className={leftContact}>
           <div className={callToAction}>
