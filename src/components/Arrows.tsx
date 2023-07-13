@@ -1,5 +1,4 @@
 import React from "react";
-import classNames from "classnames";
 
 function Arrows({ prevSlide, nextSlide }: any) {
   return (

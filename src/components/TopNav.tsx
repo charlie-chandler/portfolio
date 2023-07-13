@@ -21,7 +21,7 @@ function TopNav() {
         <a href="/projects" className={navAnchorClass}>Projects</a>
         <a href="/skills" className={navAnchorClass}>Skills</a>
         <a href="/contact" className={navAnchorClass}>Contact</a>
-        <a href="https://flowcv.com/resume/uc0n7klepo" target="_blank" className={resumeButtonClass}>Resumé</a>
+        <a href="https://flowcv.com/resume/uc0n7klepo" target="_blank" rel="noreferrer" className={resumeButtonClass}>Resumé</a>
       </div>
     </nav>
   )

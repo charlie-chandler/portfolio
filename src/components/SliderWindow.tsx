@@ -4,7 +4,7 @@ import Jungle from "../assets/jungle_panel.png";
 import Tweeter from "../assets/tweeter_panel.png";
 
 
-export default [
+const sliderLabels =  [
   {
     title: "Mood Journal Web App",
     urls: Mojo,
@@ -22,3 +22,5 @@ export default [
     urls: Tweeter,
   },
 ];
+
+export default sliderLabels;
