@@ -49,7 +49,7 @@ function Contact() {
           </ul>
         </div>
         <div className={rightContainer}>
-          <img src="" alt=""/>
+          <img src="images/dev-gif.gif" alt="developer working gif"/>
         </div>
       </div>
     </div>

@@ -18,11 +18,29 @@
   padding: 4rem 0 3rem 8rem;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .left-container {
   display: flex;
   flex-direction: column;
   width: 40%;
   margin-left: 8rem;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-left: 8rem;
+}
+
+.right-container img {
+  height: 25rem;
+  width: 35rem;
+  border-radius: 1rem;
 }
 
 .call-to-action {
