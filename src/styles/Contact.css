@@ -23,21 +23,21 @@
   flex-direction: row;
 }
 
-.left-container {
+.left-contact {
   display: flex;
   flex-direction: column;
   width: 40%;
   margin-left: 8rem;
 }
 
-.right-container {
+.right-contact {
   display: flex;
   align-items: center;
   width: 40%;
   margin-left: 8rem;
 }
 
-.right-container img {
+.right-contact img {
   height: 25rem;
   width: 35rem;
   border-radius: 1rem;
