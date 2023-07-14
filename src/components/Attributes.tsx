@@ -22,7 +22,7 @@ function Attributes () {
         </div>
         
         <div className={attributeBox}>
-          <h2>Attribute 2</h2>
+          <h2>Customer-centric approach</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
         </div>
 
