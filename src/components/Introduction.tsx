@@ -36,6 +36,7 @@ function Introduction() {
         <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
         <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
       </div>
+      <img src="images/beige-top-wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>
   )
 }
