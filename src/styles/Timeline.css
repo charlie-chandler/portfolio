@@ -76,10 +76,13 @@
 
 .left-container {
   left: 0;
+  width: 45rem;
+
 }
 
 .right-container {
   left: 54%;
+  width: 45rem;
 }
 
 .container img {
