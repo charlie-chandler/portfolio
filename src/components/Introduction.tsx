@@ -20,11 +20,11 @@ function Introduction() {
         <div className={introCopy}>
           <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
           <p>
-            A full stack developer in Vancouver, BC.
-            <br />
-            I'm ambitious, curious and enthusiastic.
-            <br />
-            Let's connect.
+            Full stack developer in Vancouver with a passion for problem-solving and optimization.
+            <br /><br />
+            Since building my first website in 2020, I've gained honed my skills in building intuitive user interfaces and efficient applications using JavaScript, React, Express, NodeJS and more. 
+            <br /><br />
+            With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will improve their professional and personal lives. 
           </p>
         </div>
         <div className={introPhoto}>
