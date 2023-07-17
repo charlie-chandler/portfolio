@@ -18,9 +18,6 @@ function App() {
       <Carousel/>
       <Skills/>
       <Contact/>
-      <p>
-      Rest of the app container will go here
-      </p>
     </div>
   );
 }
