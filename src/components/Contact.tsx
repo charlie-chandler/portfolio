@@ -5,7 +5,7 @@ import "../styles/Contact.css";
 function Contact() {
 
   const background = classNames('contact-background');
-  const title = classNames('title');
+  const title = classNames('contact-title');
   const mainContainer = classNames('contact-container');
   const leftContact = classNames('left-contact');
   const rightContact = classNames('right-contact');

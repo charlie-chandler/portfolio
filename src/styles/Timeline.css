@@ -22,6 +22,10 @@
   padding: 4rem 0 3rem 8rem;
 }
 
+.timeline-title {
+  color: white;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;

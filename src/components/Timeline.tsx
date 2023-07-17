@@ -5,7 +5,7 @@ import "../styles/Timeline.css";
 function Timeline() {
 
   const background = classNames('background');
-  const title = classNames('title');
+  const title = classNames('title', 'timeline-title');
   const timeline = classNames('timeline');
 
   const textBox = classNames('text-box');
