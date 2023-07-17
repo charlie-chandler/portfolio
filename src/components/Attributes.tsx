@@ -17,18 +17,18 @@ function Attributes() {
       <div className={attributeContainer}>
 
         <div className={attributeBox}>
-          <h2>Detail oriented / problem solving</h2>
-          <p>Hot sexy talented permenant resident</p>
+          <h2>Detail oriented</h2>
+          <p>I have a keen eye for detail so I am able to meticulously review code, understand the nuances of project requirements, and test/debug to resolve technical issues of varying difficulty.</p>
         </div>
 
         <div className={attributeBox}>
           <h2>User-centric approach</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
+          <p>My background in client-facing roles has given me great insight into the user's experience and perspective which I can apply to my coding.</p>
         </div>
 
         <div className={attributeBox}>
           <h2>Communication and Collaboration</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
+          <p>My 3+ years of experience in CX has taught me how to communicate clearly and effectively across many different teams.  </p>
         </div>
       </div>
 
