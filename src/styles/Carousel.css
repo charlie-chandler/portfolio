@@ -1,9 +1,13 @@
 .projects-background {
   background: #778F82;
-  height: 75rem;
+  height: 85rem;
   display: flex;
   flex-direction: column;
   color: white;
+}
+
+.projects-background img {
+  width: 100%;
 }
 
 .projects-background p {
@@ -12,6 +16,18 @@
   font-family: 'Lato';
   margin-left: auto;
   margin-right: auto;
+}
+
+.carousel-title {
+  font-family: 'Oswald';
+  font-style: regular;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 95px;
+
+  display: flex;
+  justify-content: left;
+  padding: 0.1rem 0 3rem 8rem;
 }
 
 :root {
@@ -65,7 +81,7 @@
   font-size: 2rem;
   position: absolute;
   text-align: center;
-  top: 98%;
+  top: 102%;
   z-index: 10;
 }
 

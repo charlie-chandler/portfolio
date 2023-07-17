@@ -12,7 +12,7 @@ const len = SliderWindow.length - 1;
 function Carousel(props: any) {
 
   const background = classNames('projects-background');
-  const title = classNames('title');
+  const title = classNames('carousel-title');
 
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -25,6 +25,7 @@ function Carousel(props: any) {
 
   return (
     <div className={background}>
+            <img src="images/wavy-graphic-2.png" alt="beige wavy graphic"></img>
       <h1 className={title}>My Projects</h1>
       <p>Click on any project for more details</p>
       <div className="slider-container">
