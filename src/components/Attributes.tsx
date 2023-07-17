@@ -2,7 +2,7 @@ import React from "react"
 import classNames from "classnames";
 import "../styles/Attributes.css";
 
-function Attributes () {
+function Attributes() {
 
   const background = classNames('attribute-background');
   const title = classNames('title');
@@ -17,29 +17,29 @@ function Attributes () {
       <div className={attributeContainer}>
 
         <div className={attributeBox}>
-          <h2>Attribute 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
+          <h2>Detail oriented / problem solving</h2>
+          <p>Hot sexy talented permenant resident</p>
         </div>
-        
+
         <div className={attributeBox}>
-          <h2>Customer-centric approach</h2>
+          <h2>User-centric approach</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
         </div>
 
         <div className={attributeBox}>
-          <h2>Attribute 3</h2>
+          <h2>Communication and Collaboration</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adispsicng elit, sed do eiusmod tempo</p>
         </div>
       </div>
-      
-        <div className={strengthBullets}>
-          <ul>
-            <li>Experienced in ...</li>
-            <li>Proficient in ...</li>
-            <li>Passion for ...</li>
-            <li>Determined to ...</li>
-          </ul>
-        </div>
+
+      <div className={strengthBullets}>
+        <ul>
+          <li>Experienced in so many things...</li>
+          <li>Proficient in ...</li>
+          <li>Passion for ...</li>
+          <li>Determined to ...</li>
+        </ul>
+      </div>
     </div>
   )
 }
