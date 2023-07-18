@@ -9,8 +9,11 @@ function Introduction() {
   const introCopy = classNames('intro-copy');
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
+
   const introPhoto = classNames('intro-photo');
   const iconContainer = classNames('icon-container');
+  const imageContainer = classNames('image-container');
+  const wavyGraphic = classNames('wavy-graphic');
 
 
 
@@ -20,11 +23,11 @@ function Introduction() {
         <div className={introCopy}>
           <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
           <p>
-            Full stack developer in Vancouver with a passion for problem-solving and optimization.
+            Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />
-            Since building my first website in 2020, I've gained honed my skills in building intuitive user interfaces and efficient applications using JavaScript, React, Express, NodeJS and more. 
+            Since building my first website in 2020, I've honed my skills in building <strong>intuitive user interfaces</strong> and <strong>efficient applications</strong> using JavaScript, React, Express, NodeJS and more. 
             <br /><br />
-            With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will improve their professional and personal lives. 
+            With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will <strong>genuinely improve their lives.</strong> 
           </p>
         </div>
         <div className={introPhoto}>
@@ -36,7 +39,7 @@ function Introduction() {
         <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
         <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
       </div>
-      <img src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
+      <img className={wavyGraphic}src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>
   )
 }
