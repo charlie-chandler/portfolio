@@ -37,7 +37,7 @@
 
 .slider-container {
   height: 55rem;
-  width: 70rem;
+  width: 67rem;
   position: relative;
   font-family: 'Lato';
   margin-left: auto;
@@ -132,7 +132,7 @@
   height: 2rem;
   position: absolute;
   display: flex;
-  top: 87%;
+  top: 86%;
   justify-content: center;
   z-index: 200;
 }
