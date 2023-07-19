@@ -17,21 +17,26 @@ function Attributes() {
       <div className={attributeContainer}>
 
         <div className={attributeBox}>
-          <h2>Detail oriented</h2>
+          <h2>Meticulous with details</h2>
           <p>Nothing makes me happier than dotting the i’s and crossing the t’s.
-            <br />
-            <br />
+            <br /><br />
             I have a keen eye for detail that translates well to writing and testing code, as well as understanding project requirements and debugging those nitty-gritty problems.</p>
         </div>
 
         <div className={attributeBox}>
-          <h2>Unique user-centric approach</h2>
-          <p>My background in client-facing roles has given me great insight into the user's experience and perspective which I can apply to my coding.</p>
+          <h2>Unique approach</h2>
+          <p>My background in client-facing roles has given me direct insight into the types of problems faced by users.
+          <br /><br />
+          My ability to understand their perspective is a key tool in creating useful products that benefit the user.
+          </p>
         </div>
 
         <div className={attributeBox}>
-          <h2>Communication and Collaboration</h2>
-          <p>My 3+ years of experience in CX has taught me how to communicate clearly and effectively across many different teams.  </p>
+          <h2>Effective communication</h2>
+          <p>Look, I know everyone says this one, but my years in CX genuinely taught me how to communicate clearly. 
+          <br /><br />
+          Knowing when to ask what questions, or when it's necessary to provide clarification, help create a more enjoyable team dynamic.
+          </p>
         </div>
       </div>
 
