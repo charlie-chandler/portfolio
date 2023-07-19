@@ -1,6 +1,7 @@
 .projects-background {
   background: #778F82;
   height: 85rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   color: white;

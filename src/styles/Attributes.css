@@ -1,6 +1,7 @@
 .attribute-background {
   background: #F2E9E4;
   height: 50rem;
+  width: 100%;
 }
 
 .attribute-container {
@@ -18,7 +19,7 @@
   border-radius: 8px;
   border-width: 0.5rem;
   border-color: #778F82;
-  border-style: solid; 
+  border-style: solid;
 }
 
 .attribute-box p{
