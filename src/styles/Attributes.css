@@ -12,7 +12,7 @@
 
 .attribute-box {
   width: 25rem;
-  height: 25rem;
+  height: 30rem;
   background: #d9d9d9ba;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -28,8 +28,14 @@
 }
 
 .attribute-box h2 {
-  margin: 2rem 0 2rem 0;
+  margin: 1.5rem 0 1rem 0;
   font-size: 30px;
+}
+
+.attribute-box img {
+  background: transparent;
+  height: 5rem;
+  width: 5rem;
 }
 
 .strength-bullets {
