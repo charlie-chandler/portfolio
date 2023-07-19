@@ -12,9 +12,7 @@ function Introduction() {
 
   const introPhoto = classNames('intro-photo');
   const iconContainer = classNames('icon-container');
-  const imageContainer = classNames('image-container');
   const wavyGraphic = classNames('wavy-graphic');
-
 
 
   return (

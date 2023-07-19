@@ -1,6 +1,6 @@
 .attribute-background {
   background: #F2E9E4;
-  /* height: 60rem; */
+  height: 50rem;
 }
 
 .attribute-container {
@@ -44,3 +44,11 @@
 .strength-bullets li {
   padding: 0.5rem;
 }
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }

@@ -8,8 +8,7 @@ function Attributes() {
   const title = classNames('title');
 
   const attributeContainer = classNames('attribute-container');
-  const attributeBox = classNames('attribute-box');
-  const strengthBullets = classNames('strength-bullets');
+  const attributeBox = classNames('attribute-box grow');
 
   return (
     <div className={background}>
@@ -38,15 +37,6 @@ function Attributes() {
           Knowing when to ask what questions, or when it's necessary to provide clarification, help create a more enjoyable team dynamic.
           </p>
         </div>
-      </div>
-
-      <div className={strengthBullets}>
-        <ul>
-          <li>Experienced in so many things...</li>
-          <li>Proficient in ...</li>
-          <li>Passion for ...</li>
-          <li>Determined to ...</li>
-        </ul>
       </div>
     </div>
   )

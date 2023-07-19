@@ -79,6 +79,11 @@
   height: 5rem;
   width: 5rem; 
   position: relative;
+  transition: all .2s ease-in-out; 
+}
+
+.icon-container img:hover{
+  transform: scale(1.2); 
 }
 
 .image-container {
