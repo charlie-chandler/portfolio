@@ -6,11 +6,11 @@ function Introduction() {
 
   const mainContainer = classNames('main-container');
   const introContainer = classNames('intro-container');
-  const introCopy = classNames('intro-copy');
+  const introCopy = classNames('intro-copy slide-in-left');
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
 
-  const introPhoto = classNames('intro-photo');
+  const introPhoto = classNames('intro-photo slide-in-right');
   const iconContainer = classNames('icon-container');
   const wavyGraphic = classNames('wavy-graphic');
 
