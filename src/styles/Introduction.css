@@ -98,56 +98,63 @@
 @keyframes slideInLeft {
   from {
     transform: translateX(-50rem);
+    opacity: 0;
   }
 
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes slideInRight {
   from {
     transform: translateX(20rem);
+    opacity: 0;
   }
 
   to {
     transform: translateX(0);
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
     opacity: 1;
   }
 }
 
+@keyframes slideInBottom {
+  from {
+    transform: translateY(20rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 .slide-in-left {
   animation-name: slideInLeft;
-  animation-duration: 1500ms;
+  animation-duration: 1200ms;
   animation-timing-function: ease-in;
-  animation-delay: 500ms;
+  animation-delay: 0;
   animation-iteration-count: 1;
   animation-direction: normal;
 }
 
 .slide-in-right {
   animation-name: slideInRight;
-  animation-duration: 1500ms;
+  animation-duration: 1200ms;
   animation-timing-function: ease-in;
-  animation-delay: 500ms;
+  animation-delay: 0;
   animation-iteration-count: 1;
   animation-direction: normal;
 }
 
-.fade-in {
-  animation-name: fadeIn;
-  animation-duration: 1000ms;
+.slide-in-bottom {
+  animation-name: slideInBottom;
+  animation-duration: 1200ms;
   animation-timing-function: ease-in;
-  animation-delay: 500ms;
+  animation-delay: 0;
   animation-iteration-count: 1;
   animation-direction: normal;
-  
 }

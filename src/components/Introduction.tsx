@@ -11,7 +11,7 @@ function Introduction() {
   const highlight = classNames('highlight');
 
   const introPhoto = classNames('intro-photo slide-in-right');
-  const iconContainer = classNames('icon-container');
+  const iconContainer = classNames('icon-container slide-in-bottom');
   const wavyGraphic = classNames('wavy-graphic');
 
 
