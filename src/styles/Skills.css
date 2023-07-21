@@ -17,11 +17,11 @@
   margin: 2rem 0 0 8rem;
 }
 
-.row > .skill-box-grey:not(:last-child) {
+.row > .tilty:not(:last-child) {
   margin-right: 2rem;
 }
 
-.row > .skill-box-grey:not(:first-child) {
+.row > .tilty:not(:first-child) {
   margin-left: 2rem;
 }
 

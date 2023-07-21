@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classNames from "classnames";
-import "../styles/Skills.css"
+import Tilty from 'react-tilty';
+
+import "../styles/Skills.css";
 
 function Skills() {
 
@@ -13,6 +15,7 @@ function Skills() {
   const skillBoxGrey = classNames('skill-box-grey');
   const skillIconsRow = classNames('skill-icons-row');
   const skillStamp = classNames('skill-stamp');
+  const tilty = classNames('tilty');
 
 
   return (
@@ -22,6 +25,7 @@ function Skills() {
 
         <div className={row}>
           {/* Languages */}
+          <Tilty className={tilty}>
           <div className={skillBoxGreen}>
             <h2>Languages</h2>
             <div className={skillIconsRow}>
@@ -47,8 +51,10 @@ function Skills() {
               </div>
             </div>
           </div>
+          </Tilty>
 
           {/* Frameworks/Libraries/Environments */}
+          <Tilty>
           <div className={skillBoxGrey}>
             <h2>Frameworks/Libraries/Environments</h2>
             <div className={skillIconsRow}>
@@ -82,10 +88,13 @@ function Skills() {
               </div>
             </div>
           </div>
+        </Tilty>
         </div>
+
 
         <div className={row}>
           {/* Systems/Databases */}
+          <Tilty className={tilty}>
           <div className={skillBoxGrey}>
             <h2>Systems/Databases</h2>
             <div className={skillIconsRow}>
@@ -103,8 +112,11 @@ function Skills() {
               </div>
             </div>
           </div>
+          </Tilty>
+
 
           {/* Testing */}
+          <Tilty>
           <div className={skillBoxGreen}>
             <h2>Testing</h2>
             <div className={skillIconsRow}>
@@ -134,10 +146,13 @@ function Skills() {
               </div>
             </div>
           </div>
+          </Tilty>
+
         </div>
 
         <div className={row}>
           {/* Tools */}
+          <Tilty>
           <div className={skillBoxGreen}>
             <h2>Tools</h2>
             <div className={skillIconsRow}>
@@ -163,6 +178,8 @@ function Skills() {
               </div>
             </div>
           </div>
+          </Tilty>
+
         </div>
       </div> {/* Container */}
 
