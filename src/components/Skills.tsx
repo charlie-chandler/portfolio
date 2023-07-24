@@ -20,7 +20,7 @@ function Skills() {
 
   return (
     <div className={background}>
-      <h1 className={title}>My Technical Skills</h1>
+      <h1 className={title} id="skills">My Technical Skills</h1>
       <div className={container}>
 
         <div className={row}>

@@ -25,7 +25,7 @@ function Carousel(props: any) {
 
   return (
     <div className={background}>
-            <img src="images/wavy-graphic-2.png" alt="beige wavy graphic"></img>
+            <img src="images/wavy-graphic-2.png" alt="beige wavy graphic" id="projects"></img>
       <h1 className={title}>My Projects</h1>
       <p>Click on any project for more details</p>
       <div className="slider-container">

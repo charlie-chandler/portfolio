@@ -16,7 +16,7 @@ function Timeline() {
 
 
   return (
-    <div className={background}>
+    <div className={background} id="about">
       <h1 className={title}>How did I get here?</h1>
       <div className={timeline}>
 

@@ -13,14 +13,15 @@ function TopNav() {
 
   return (
     <nav>
-      <div className={topNavCharlie}>CHARLIE</div>
-      <div className={topNavChandler}>CHANDLER</div>
-      
+      <a href="#top">
+        <div className={topNavCharlie} >CHARLIE</div>
+        <div className={topNavChandler}>CHANDLER</div>
+      </a>
       <div className={topNavLinks} id="navLinks">
-        <a href="/about" className={navAnchorClass}>About</a>
-        <a href="/projects" className={navAnchorClass}>Projects</a>
-        <a href="/skills" className={navAnchorClass}>Skills</a>
-        <a href="/contact" className={navAnchorClass}>Contact</a>
+        <a href="#about" className={navAnchorClass}>About</a>
+        <a href="#projects" className={navAnchorClass}>Projects</a>
+        <a href="#skills" className={navAnchorClass}>Skills</a>
+        <a href="#contact" className={navAnchorClass}>Contact</a>
         <a href="https://drive.google.com/file/d/19CjSNIQ9QFCpoGkjMhpbP_tag8le6yti/view?usp=share_link" target="_blank" rel="noreferrer" className={resumeButtonClass}>Resumé</a>
       </div>
     </nav>
