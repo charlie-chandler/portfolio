@@ -1,6 +1,6 @@
 .projects-background {
   background: #778F82;
-  height: 85rem;
+  height: 88rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@
   display: flex;
   justify-content: left;
   padding: 0.1rem 0 3rem 8rem;
+  margin-top: 3rem;
 }
 
 :root {
@@ -168,4 +169,10 @@
   color: rgb(255, 255, 255);
 }
 
+#projects {
+  scroll-margin-top: 8rem;
+}
 
+html {
+  scroll-behavior: smooth;
+}

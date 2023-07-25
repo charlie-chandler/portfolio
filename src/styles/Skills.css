@@ -90,3 +90,6 @@
   filter: invert(100%);
 }
 
+#skills {
+  scroll-margin-top: 5rem;
+}

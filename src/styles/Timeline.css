@@ -41,6 +41,10 @@
   z-index: 20;
 }
 
+#about {
+  scroll-margin-top: 25rem;
+}
+
 @keyframes movedown {
   0% {
     opacity: 1;
