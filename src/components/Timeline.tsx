@@ -16,9 +16,9 @@ function Timeline() {
 
 
   return (
-    <div className={background} id="about">
+    <div className={background}>
       <h1 className={title}>How did I get here?</h1>
-      <div className={timeline}>
+      <div className={timeline} id="about">
 
         <div className={leftContainer}>
           <img src="images/lhl_circle.png" alt="lhl circle" />

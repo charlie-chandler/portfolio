@@ -25,8 +25,8 @@ function Carousel(props: any) {
 
   return (
     <div className={background}>
-            <img src="images/wavy-graphic-2.png" alt="beige wavy graphic" id="projects"></img>
-      <h1 className={title}>My Projects</h1>
+            <img src="images/wavy-graphic-2.png" alt="beige wavy graphic"></img>
+      <h1 className={title} id="projects">My Projects</h1>
       <p>Click on any project for more details</p>
       <div className="slider-container">
         <SliderContent activeIndex={activeIndex} sliderImage={SliderWindow} />
