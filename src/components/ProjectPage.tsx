@@ -1,5 +1,8 @@
 import React from "react";
 import classNames from "classnames";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+
 import TopNav from "./TopNav";
 import { Link } from "react-router-dom";
 import "../styles/ProjectPage.css";
@@ -26,12 +29,14 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   const lowerBackground = classNames("lower-background");
   const title = classNames('project-title');
   const subtitle = classNames('subtitle');
+
   const projectContainer = classNames('project-container');
   const leftContainer = classNames('left-project-container');
   const rightContainer = classNames('right-project-container');
+
   const stackList = classNames('stack-list');
   const featureList = classNames('feature-list');
-
+  const arrowIcon = classNames('arrow-icon');
 
   return (
     <>
@@ -49,11 +54,20 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
               ))}
             </ul>
 
-            <Link to="/#top"><button>Back to home</button></Link>
+            <Link to="/#top" className="home-button">
+              <button>
+                <div className={arrowIcon}>
+                  <FontAwesomeIcon icon={faArrowLeft} style={{ color: "#000000", }} />
+                </div>
+                Home
+              </button>
+            </Link>
           </div>
           <div className={rightContainer}>
             <img src='images/project-reel/mojo_home.png' alt="demo gif" />
-            <a href={repoLink} target="_blank" rel="noopener noreferrer"><button>View Repo</button></a>
+            <Link to={repoLink} className="repo-button" target="_blank" rel="noopener noreferrer" >
+              <button>View Repo</button>
+            </Link>
           </div>
         </div>
       </div>
