@@ -13,7 +13,7 @@ const MojoPage: React.FC = () => {
        projectSubtitle="Wellness web app" 
        stack={["JavaScript, React, Node.js"]}
        features={["Mood selector", "Journal", "Customizable daily wellness checklist", "Calendar API", "Spotify playlist suggestions that compliment your mood"]}
-       image="assets/mojo_demo.gif"
+       image="src/assets/mojo_demo.gif"
        repoLink="https://github.com/charlie-chandler/MoJo"
     />
   </>

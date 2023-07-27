@@ -48,11 +48,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
                 <li key={index}>{feature}</li>
               ))}
             </ul>
-            
+
             <Link to="/#top"><button>Back to home</button></Link>
           </div>
           <div className={rightContainer}>
-            <img src={image} alt="demo gif" />
+            <img src='images/project-reel/mojo_home.png' alt="demo gif" />
             <a href={repoLink} target="_blank" rel="noopener noreferrer"><button>View Repo</button></a>
           </div>
         </div>
