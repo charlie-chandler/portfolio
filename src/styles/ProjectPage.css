@@ -1,0 +1,55 @@
+.upper-background {
+  height: 80rem;
+  width: 100%;
+  background-color: #778F82;
+  padding: 10rem 0 2rem 8rem;
+}
+
+.lower-background {
+  height: 80rem;
+  width: 100%;
+  background-color: #F2E9E4;
+  padding: 5rem 0 2rem 8rem;
+}
+
+.project-title {
+  font-family: 'Oswald';
+  font-style: regular;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 95px;
+
+  display: flex;
+  justify-content: left;
+  padding: 1rem 0 2rem 0;
+  color: white;
+}
+
+.subtitle {
+  font-family: 'Oswald';
+  font-style: regular;
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 95px;
+
+  display: flex;
+  justify-content: left;
+  padding: 0 0 3rem 0;
+  color: white;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-project-container {
+  height: 40rem;
+  width: 50%;
+  margin-right: 20rem;
+}
+
+.right-project-container {
+  height: 40rem;
+  width: 50%
+}
