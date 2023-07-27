@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import TopNav from './components/home-page/TopNav';
-import Introduction from './components/home-page/Introduction';
-import Timeline from './components/home-page/Timeline';
-import Attributes from './components/home-page/Attributes';
-import Carousel from './components/home-page/Carousel';
-import Skills from './components/home-page/Skills';
-import Contact from './components/home-page/Contact';
+import TopNav from './components/TopNav';
+import Introduction from './components/Introduction';
+import Timeline from './components/Timeline';
+import Attributes from './components/Attributes';
+import Carousel from './components/Carousel';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
   return (

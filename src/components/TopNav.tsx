@@ -1,6 +1,6 @@
 import React from "react"
 import classNames from "classnames";
-import "../../styles/TopNav.css";
+import "../styles/TopNav.css";
 import { Link } from "react-router-dom";
 
 function TopNav() {

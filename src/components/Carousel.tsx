@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import classNames from "classnames";
-import "../../styles/Carousel.css";
+import "../styles/Carousel.css";
 
 import SliderContent from "./SliderContent";
 import Dots from "./Dots";

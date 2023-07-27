@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MojoPage from './components/mojo-page/MojoPage';
+import MojoPage from './components/MojoPage';
 
 
 const router = createBrowserRouter([

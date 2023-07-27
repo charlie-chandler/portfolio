@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import classNames from "classnames";
 import Tilty from 'react-tilty';
 
-import "../../styles/Skills.css";
+import "../styles/Skills.css";
 
 function Skills() {
 

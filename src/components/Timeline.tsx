@@ -1,6 +1,6 @@
 import React from "react"
 import classNames from "classnames";
-import "../../styles/Timeline.css";
+import "../styles/Timeline.css";
 
 function Timeline() {
 

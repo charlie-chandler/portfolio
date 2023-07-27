@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import TopNav from "../home-page/TopNav";
+import TopNav from "./TopNav";
 import { Link } from "react-router-dom";
 
 
