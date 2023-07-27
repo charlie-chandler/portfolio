@@ -2,29 +2,33 @@ import React from "react";
 import classNames from "classnames";
 import TopNav from "./TopNav";
 import { Link } from "react-router-dom";
+import "../styles/ProjectPage.css";
 
 
 interface ProjectPageProps {
   projectTitle: string;
-  stack: [];
-  features: [];
-  image: HTMLImageElement;
+  projectSubtitle: string;
+  stack: string[];
+  features: string[];
+  image: string;
   repoLink: string;
 }
 const ProjectPage: React.FC<ProjectPageProps> = ({
   projectTitle,
+  projectSubtitle,
   stack,
   features,
   image,
   repoLink,
 }) => {
 
-  const background = classNames("mojo-background");
-  const title = classNames('title');
+  const upperBackground = classNames("upper-background");
+  const lowerBackground = classNames("lower-background");
+  const title = classNames('project-title');
   const subtitle = classNames('subtitle');
-  const mojoContainer = classNames('mojo-container');
-  const leftContainer = classNames('left-mojo');
-  const rightContainer = classNames('right-mojo');
+  const projectContainer = classNames('project-container');
+  const leftContainer = classNames('left-project-container');
+  const rightContainer = classNames('right-project-container');
   const stackList = classNames('stack-list');
   const featureList = classNames('feature-list');
 
@@ -32,22 +36,31 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   return (
     <>
       <TopNav />
-      <div className={background}>
+      <div className={upperBackground}>
         <h1 className={title}>{projectTitle}</h1>
-        <h3 className={subtitle}>Mood Journal Web App</h3>
-        <div className={mojoContainer}>
+        <h3 className={subtitle}>{projectSubtitle}</h3>
+        <div className={projectContainer}>
           <div className={leftContainer}>
-            <div className={stackList}></div>
-            <div className={featureList}></div>
+            <div className={stackList}>{stack}</div>
+
+            <ul className={featureList}>
+              {features.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+            
             <Link to="/#top"><button>Back to home</button></Link>
           </div>
           <div className={rightContainer}>
-            <img src="src/assets/mojo_demo.gif" alt="mojo demo gif" />
-            <a href="https://github.com/charlie-chandler/MoJo"><button>Repo</button></a>
+            <img src={image} alt="demo gif" />
+            <a href={repoLink} target="_blank" rel="noopener noreferrer"><button>View Repo</button></a>
           </div>
-
         </div>
       </div>
+
+      <div className={lowerBackground}>
+
+      </div >
     </>
   )
 }

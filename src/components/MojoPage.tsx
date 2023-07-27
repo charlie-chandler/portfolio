@@ -2,42 +2,23 @@ import React from "react";
 import classNames from "classnames";
 import TopNav from "./TopNav";
 import { Link } from "react-router-dom";
+import ProjectPage from "./ProjectPage";
 
 
-function MojoPage() {
-
-  const background = classNames("mojo-background");
-  const title = classNames('title');
-  const subtitle = classNames('subtitle');
-  const mojoContainer = classNames('mojo-container');
-  const leftContainer = classNames('left-mojo');
-  const rightContainer = classNames('right-mojo');
-  const stack = classNames('stack');
-  const featureList = classNames('feature-list');
-
-
-
+const MojoPage: React.FC = () => {
   return (
     <>
-      <TopNav />
-      <div className={background}>
-        <h1 className={title} id="skills">Mojo</h1>
-        <h3 className={subtitle}>Mood Journal Web App</h3>
-        <div className={mojoContainer}>
-          <div className={leftContainer}>
-            <div className={stack}></div>
-            <div className={featureList}></div>
-            <Link to="/#top"><button>Back to home</button></Link>
-          </div>
-          <div className={rightContainer}>
-            <img src="src/assets/mojo_demo.gif" alt="mojo demo gif" />
-            <a href="https://github.com/charlie-chandler/MoJo"><button>Repo</button></a>
-          </div>
-
-        </div>
-      </div>
-    </>
-  );
+    <ProjectPage
+       projectTitle="Mojo"
+       projectSubtitle="Wellness web app" 
+       stack={["JavaScript, React, Node.js"]}
+       features={["Mood selector", "Journal", "Customizable daily wellness checklist", "Calendar API", "Spotify playlist suggestions that compliment your mood"]}
+       image="assets/mojo_demo.gif"
+       repoLink="https://github.com/charlie-chandler/MoJo"
+    />
+  </>
+  )
+  
 }
 
 export default MojoPage;
