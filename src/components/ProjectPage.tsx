@@ -109,7 +109,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
         <Link to="/#top" className="home-button">
           <button>
             <div className={arrowIcon}>
-              <FontAwesomeIcon icon={faArrowLeft} style={{ color: "#000000", }} />
+              <FontAwesomeIcon icon={faArrowLeft} style={{ color: "#FFFFFF", }} />
             </div>
             Home
           </button>
