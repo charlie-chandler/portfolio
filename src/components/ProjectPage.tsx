@@ -31,14 +31,17 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   const subtitle = classNames('subtitle');
 
   const projectContainer = classNames('project-container');
-  const leftContainer = classNames('left-project-container');
-  const rightContainer = classNames('right-project-container');
+  const leftProjContainer = classNames('left-project-container');
+  const rightProjContainer = classNames('right-project-container');
 
   const stackList = classNames('stack-list');
   const featureList = classNames('feature-list');
   const arrowIcon = classNames('arrow-icon');
   const skillStamp = classNames('skill-stamp');
 
+  const writeupContainer = classNames('writeup-container');
+  const challengesContainer = classNames('challenges-container');
+  const goalContainer = classNames('goal-container');
 
   return (
     <>
@@ -47,7 +50,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
         <h1 className={title}>{projectTitle}</h1>
         <h3 className={subtitle}>{projectSubtitle}</h3>
         <div className={projectContainer}>
-          <div className={leftContainer}>
+          <div className={leftProjContainer}>
 
             <div className={stackList}>
               {stack.map((tech) => {
@@ -60,14 +63,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
                 );
               })}
             </div>
-
-
             <ul className={featureList}>
               {features.map((feature, index) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>
-
             <Link to="/#top" className="home-button">
               <button>
                 <div className={arrowIcon}>
@@ -78,7 +78,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
             </Link>
           </div>
 
-          <div className={rightContainer}>
+          <div className={rightProjContainer}>
             <img src={image} alt="demo gif" />
             <Link to={repoLink} className="repo-button" target="_blank" rel="noopener noreferrer" >
               <button>View Repo</button>
@@ -88,7 +88,32 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
       </div>
 
       <div className={lowerBackground}>
-
+        <div className={writeupContainer}>
+          <div className={challengesContainer}>
+            <img src={image} alt="demo gif" />
+            <h1 className={title}>Challenges</h1>
+            <p>This project used several API intergrations to make it work, so our team's biggest challenge was understanding external libraries and version compatibility wit React.
+              <br /><br />
+              We were able to overcome this with a large amount of research and pair programming through the toughest problems.
+            </p>
+          </div>
+          <div className={goalContainer}>
+            <h1 className={title}>Project Goal</h1>
+            <p>This project used several API intergrations to make it work, so our team's biggest challenge was understanding external libraries and version compatibility wit React.
+              <br /><br />
+              We were able to overcome this with a large amount of research and pair programming through the toughest problems.
+            </p>
+            <img src={image} alt="demo gif" />
+          </div>
+        </div>
+        <Link to="/#top" className="home-button">
+          <button>
+            <div className={arrowIcon}>
+              <FontAwesomeIcon icon={faArrowLeft} style={{ color: "#000000", }} />
+            </div>
+            Home
+          </button>
+        </Link>
       </div >
     </>
   )
