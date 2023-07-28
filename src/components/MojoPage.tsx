@@ -1,7 +1,4 @@
 import React from "react";
-import classNames from "classnames";
-import TopNav from "./TopNav";
-import { Link } from "react-router-dom";
 import ProjectPage from "./ProjectPage";
 
 

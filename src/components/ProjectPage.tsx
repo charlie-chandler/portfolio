@@ -37,10 +37,6 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   const stackList = classNames('stack-list');
   const featureList = classNames('feature-list');
   const arrowIcon = classNames('arrow-icon');
-
-  const skillBoxGreen = classNames('skill-box-green');
-  const skillBoxGrey = classNames('skill-box-grey');
-  const skillIconsRow = classNames('skill-icons-row');
   const skillStamp = classNames('skill-stamp');
 
 
