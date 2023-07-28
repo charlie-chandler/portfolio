@@ -2,6 +2,9 @@ import React from "react"
 import classNames from "classnames";
 import "../styles/TopNav.css";
 import { Link } from "react-router-dom";
+// @ts-ignore 
+import { HashLink } from "react-router-hash-link";
+
 
 function TopNav() {
 
@@ -14,15 +17,15 @@ function TopNav() {
 
   return (
     <nav>
-      <Link to="/#top">
+      <HashLink to="/#top">
         <div className={topNavCharlie} >CHARLIE</div>
         <div className={topNavChandler}>CHANDLER</div>
-      </Link>
+      </HashLink>
       <div className={topNavLinks} id="navLinks">
-        <Link to="/#about" className={navAnchorClass}>About</Link>
-        <Link to="/#projects" className={navAnchorClass}>Projects</Link>
-        <Link to="/#skills" className={navAnchorClass}>Skills</Link>
-        <Link to="/#contact" className={navAnchorClass}>Contact</Link>
+        <HashLink to="/#about" className={navAnchorClass}>About</HashLink>
+        <HashLink to="/#projects" className={navAnchorClass}>Projects</HashLink>
+        <HashLink to="/#skills" className={navAnchorClass}>Skills</HashLink>
+        <HashLink to="/#contact" className={navAnchorClass}>Contact</HashLink>
         <a href="https://drive.google.com/file/d/19CjSNIQ9QFCpoGkjMhpbP_tag8le6yti/view?usp=share_link" target="_blank" rel="noreferrer" className={resumeButtonClass}>Resumé</a>
       </div>
     </nav>
