@@ -22,7 +22,7 @@
   display: flex;
   justify-content: left;
   padding: 1rem 0 2rem 0;
-  color: white;
+  color: black;
 }
 
 .subtitle {
@@ -35,7 +35,7 @@
   display: flex;
   justify-content: left;
   padding: 0 0 3rem 0;
-  color: white;
+  color: black;
 }
 
 .project-container {
@@ -50,6 +50,32 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  height: 10rem;
+  width: 30rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.skill-stamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.skill-stamp img {
+  height: 4.5rem;
+  width: 4.5rem; 
 }
 
 .home-button {
@@ -94,8 +120,6 @@ button:hover {
   padding-right: 0.5rem;
 }
 
-
-
 .right-project-container {
   height: 40rem;
   width: 50%;
@@ -136,8 +160,8 @@ button:hover {
 }
 
 .feature-list {
-  color: white;
+  color: black;
   font-size: 2rem;
-  line-height: 40px;
-  margin: 5rem 0 3rem 0;
+  line-height: 50px;
+  margin: 5rem 0 6rem 2rem;
 }

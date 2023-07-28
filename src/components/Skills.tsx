@@ -30,7 +30,7 @@ function Skills() {
             <h2>Languages</h2>
             <div className={skillIconsRow}>
               <div className={skillStamp}>
-                <img src='icons/js.png' alt="javascript icon"></img>
+                <img src='icons/javascript.png' alt="javascript icon"></img>
                 <h5>JavaScript</h5>
               </div>
               <div className={skillStamp}>
@@ -67,7 +67,7 @@ function Skills() {
                 <h5>Express</h5>
               </div>
               <div className={skillStamp}>
-                <img src='icons/node.png' alt="node icon"></img>
+                <img src='icons/nodejs.png' alt="node icon"></img>
                 <h5>NodeJS</h5>
               </div>
               <div className={skillStamp}>
@@ -103,7 +103,7 @@ function Skills() {
                 <h5>Git</h5>
               </div>
               <div className={skillStamp}>
-                <img src='icons/sql_white.png' alt="sql icon"></img>
+                <img src='icons/sql.png' alt="sql icon"></img>
                 <h5>SQL</h5>
               </div>
               <div className={skillStamp}>

@@ -38,6 +38,12 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   const featureList = classNames('feature-list');
   const arrowIcon = classNames('arrow-icon');
 
+  const skillBoxGreen = classNames('skill-box-green');
+  const skillBoxGrey = classNames('skill-box-grey');
+  const skillIconsRow = classNames('skill-icons-row');
+  const skillStamp = classNames('skill-stamp');
+
+
   return (
     <>
       <TopNav />
@@ -46,7 +52,19 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
         <h3 className={subtitle}>{projectSubtitle}</h3>
         <div className={projectContainer}>
           <div className={leftContainer}>
-            <div className={stackList}>{stack}</div>
+
+            <div className={stackList}>
+              {stack.map((tech) => {
+                const techWithoutPeriods = tech.replace(/\./g, '');
+                return (
+                  <div className={skillStamp}>
+                    <img src={`icons/${techWithoutPeriods}.png`} alt={`${techWithoutPeriods} icon`}></img>
+                    <h5>{tech}</h5>
+                  </div>
+                );
+              })}
+            </div>
+
 
             <ul className={featureList}>
               {features.map((feature, index) => (
@@ -63,8 +81,9 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
               </button>
             </Link>
           </div>
+
           <div className={rightContainer}>
-            <img src='images/project-reel/mojo_home.png' alt="demo gif" />
+            <img src={image} alt="demo gif" />
             <Link to={repoLink} className="repo-button" target="_blank" rel="noopener noreferrer" >
               <button>View Repo</button>
             </Link>
