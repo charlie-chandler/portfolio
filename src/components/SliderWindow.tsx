@@ -8,14 +8,17 @@ const sliderLabels =  [
   {
     title: "Mood Journal Web App",
     urls: Mojo,
+    route: "/mojo"
   },
   {
     title: "Interview Scheduler Web App",
     urls: Scheduler,
+    route: "/scheduler"
   },
   {
     title: "Plant Lovers E-Commerce Store",
     urls: Jungle,
+    route: "/jungle"
   },
   {
     title: "Twitter-like Social Media Platform",
