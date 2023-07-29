@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MojoPage from './components/MojoPage';
 
+import MojoPage from './components/MojoPage';
+import SchedulerPage from './components/SchedulerPage';
+import JunglePage from './components/JunglePage';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,16 @@ const router = createBrowserRouter([
   {
     path: "mojo",
     element: <MojoPage/>,
-  }
+  },
+  {
+    path: "scheduler",
+    element: <SchedulerPage/>,
+  },
+  {
+    path: "jungle",
+    element: <JunglePage/>,
+  },
+
 ]);
 
 
