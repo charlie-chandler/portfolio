@@ -13,7 +13,9 @@ interface ProjectPageProps {
   projectSubtitle: string;
   stack: string[];
   features: string[];
-  image: string;
+  image1: string;
+  image2: string;
+  image3: string;
   repoLink: string;
 }
 const ProjectPage: React.FC<ProjectPageProps> = ({
@@ -21,7 +23,9 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   projectSubtitle,
   stack,
   features,
-  image,
+  image1,
+  image2,
+  image3,
   repoLink,
 }) => {
 
@@ -79,18 +83,18 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
           </div>
 
           <div className={rightProjContainer}>
-            <img src={image} alt="demo gif" />
+            <img src={image1} alt="demo gif" />
             <Link to={repoLink} className="repo-button" target="_blank" rel="noopener noreferrer" >
               <button>View Repo</button>
             </Link>
           </div>
         </div>
       </div>
-
+      <img src="images/wavy-graphic-2.png" alt="wavy graphic" className="project-page-border"/>
       <div className={lowerBackground}>
         <div className={writeupContainer}>
           <div className={challengesContainer}>
-            <img src={image} alt="demo gif" />
+            <img src={image2} alt="demo gif" />
             <h1 className={title}>Challenges</h1>
             <p>This project used several API intergrations to make it work, so our team's biggest challenge was understanding external libraries and version compatibility wit React.
               <br /><br />
@@ -103,7 +107,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
               <br /><br />
               We were able to overcome this with a large amount of research and pair programming through the toughest problems.
             </p>
-            <img src={image} alt="demo gif" />
+            <img src={image3} alt="demo gif" />
           </div>
         </div>
         <Link to="/#top" className="home-button">
