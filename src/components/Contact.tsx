@@ -7,7 +7,7 @@ function Contact() {
   const background = classNames('contact-background');
   const title = classNames('contact-title');
   const mainContainer = classNames('contact-container');
-  const leftContact = classNames('left-contact');
+  const leftContact = classNames('left-contact slide-in-left');
   const rightContact = classNames('right-contact');
 
   const callToAction = classNames('call-to-action');
