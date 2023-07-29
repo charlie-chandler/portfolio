@@ -16,6 +16,10 @@ interface ProjectPageProps {
   image1: string;
   image2: string;
   image3: string;
+  challenge1: string;
+  challenge2: string;
+  goal1: string;
+  goal2: string;
   repoLink: string;
 }
 const ProjectPage: React.FC<ProjectPageProps> = ({
@@ -26,6 +30,10 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   image1,
   image2,
   image3,
+  challenge1,
+  challenge2,
+  goal1,
+  goal2,
   repoLink,
 }) => {
 
@@ -96,16 +104,16 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
           <div className={challengesContainer}>
             <img src={image2} alt="demo gif" />
             <h1 className={title}>Challenges</h1>
-            <p>This project used several API intergrations to make it work, so our team's biggest challenge was understanding external libraries and version compatibility wit React.
+            <p>{challenge1}
               <br /><br />
-              We were able to overcome this with a large amount of research and pair programming through the toughest problems.
+              {challenge2}
             </p>
           </div>
           <div className={goalContainer}>
             <h1 className={title}>Project Goal</h1>
-            <p>This project used several API intergrations to make it work, so our team's biggest challenge was understanding external libraries and version compatibility wit React.
+            <p>{goal1}
               <br /><br />
-              We were able to overcome this with a large amount of research and pair programming through the toughest problems.
+              {goal2}
             </p>
             <img src={image3} alt="demo gif" />
           </div>
