@@ -13,10 +13,14 @@ function Contact() {
   const callToAction = classNames('call-to-action');
   const contactList = classNames('contact-list');
   const contactListItem = classNames('contact-list-item');
+  const wavyGraphic = classNames('wavy-graphic');
+  const footer = classNames('footer');
+
 
 
   return (
     <div className={background}>
+      <img src="images/wavy_line_beige.png" alt="wavy border" className={wavyGraphic}/>
       <h1 className={title} id="contact">Want to work together?</h1>
       <div className={mainContainer}>
         <div className={leftContact}>
@@ -52,6 +56,9 @@ function Contact() {
           <img src="images/dev-gif.gif" alt="developer working gif"/>
         </div>
       </div>
+      <div className={footer}>
+        <h3>© Charlie Chandler 2023</h3>
+        </div>
     </div>
   )
 }
