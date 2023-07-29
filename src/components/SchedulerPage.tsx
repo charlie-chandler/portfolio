@@ -8,7 +8,7 @@ const SchedulerPage: React.FC = () => {
     <ProjectPage
        projectTitle="Scheduler"
        projectSubtitle="CRUD app for scheduling interviews" 
-       stack={["JavaScript", "React", "SQL", "Ajax", "Node.js", "Cypress", "Storybook", "Jest"]}
+       stack={["JavaScript", "React", "SQL", "Express", "Node.js", "Cypress", "Storybook", "Jest"]}
        features={["Book, update, and cancel appointments", "Choose specific interviewers", "Search through the week's availability"]}
        image1='images/project-reel/scheduler_demo.gif'
        image2='images/project-reel/scheduler_edit.png'
