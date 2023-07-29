@@ -1,7 +1,6 @@
 import React from "react"
 import classNames from "classnames";
 import "../styles/TopNav.css";
-import { Link } from "react-router-dom";
 // @ts-ignore 
 import { HashLink } from "react-router-hash-link";
 
