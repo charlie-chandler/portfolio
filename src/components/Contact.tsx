@@ -20,7 +20,7 @@ function Contact() {
 
   return (
     <div className={background}>
-      <img src="images/wavy_line_beige.png" alt="wavy border" className={wavyGraphic}/>
+      <img src="images/wavy-graphic-2.png" alt="wavy border" className={wavyGraphic}/>
       <h1 className={title} id="contact">Want to work together?</h1>
       <div className={mainContainer}>
         <div className={leftContact}>
