@@ -66,7 +66,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
 
             <div className={stackList}>
               {stack.map((tech) => {
-                const techWithoutPeriods = tech.replace(/\./g, '');
+                const techWithoutPeriods = tech.replace(/\./g, '').toLowerCase();
                 return (
                   <div className={skillStamp}>
                     <img src={`icons/${techWithoutPeriods}.png`} alt={`${techWithoutPeriods} icon`}></img>
