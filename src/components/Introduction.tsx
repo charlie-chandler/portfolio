@@ -27,15 +27,15 @@ function Introduction() {
             <br /><br />
             With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will <strong>genuinely improve their lives.</strong> 
           </p>
+          <div className={iconContainer}>
+        <a href="mailto:charlesmjchandler@gmail.com?subject=Nice to meet you!&amp;body=Hi Charlie,"><img src="icons/email.png" alt="email-icon"></img></a>
+        <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
+        <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
+      </div>
         </div>
         <div className={introPhoto}>
           <img src="images/blob_and_photo2.png" alt="green-blob" className={introPhoto} />
         </div>
-      </div>
-      <div className={iconContainer}>
-        <a href="mailto:charlesmjchandler@gmail.com?subject=Nice to meet you!&amp;body=Hi Charlie,"><img src="icons/email.png" alt="email-icon"></img></a>
-        <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
-        <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
       </div>
       <img className={wavyGraphic}src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>

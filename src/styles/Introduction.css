@@ -62,11 +62,8 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  margin-left: -16rem;
-  top: 7rem;
-  left: 36rem;
-  /* transform: translate(-50%, -50%); */
+  justify-content: center;
+  top: 10rem;
   z-index: 10;
 }
 
