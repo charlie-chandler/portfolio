@@ -10,7 +10,7 @@ function SliderContent({ activeIndex, sliderImage }: any) {
           className={index === activeIndex ? "slides active" : "inactive"}
         >
           <Link to={slide.route}>
-          <img className="slide-image" src={slide.urls} alt="" />
+          <img className="slide-image" src={slide.urls} alt="project preview" />
           <p className="slide-title">{slide.title}</p>
           </Link>
         </div>

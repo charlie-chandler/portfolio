@@ -83,7 +83,8 @@
   font-size: 2rem;
   position: absolute;
   text-align: center;
-  top: 102%;
+  /* top: 102%; */
+  margin-top: 3rem;
   z-index: 10;
 }
 
