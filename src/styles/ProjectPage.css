@@ -1,5 +1,5 @@
 .upper-background {
-  height: 80rem;
+  min-height: 80rem;
   width: 100%;
   background-color: #778F82;
   padding: 10rem 0 2rem 8rem;
@@ -50,7 +50,7 @@
 }
 
 .left-project-container {
-  height: 40rem;
+  min-height: 40rem;
   width: 50%;
   margin-right: 5rem;
   display: flex;
