@@ -11,7 +11,7 @@ function Introduction() {
   const highlight = classNames('highlight');
 
   const introPhoto = classNames('intro-photo slide-in-right');
-  const iconContainer = classNames('icon-container slide-in-bottom');
+  const iconContainer = classNames('icon-container');
   const wavyGraphic = classNames('wavy-graphic');
 
 
@@ -23,21 +23,21 @@ function Introduction() {
           <p>
             Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />
-            Since building my first website in 2020, I've honed my skills in building <strong>intuitive user interfaces</strong> and <strong>efficient applications</strong> using JavaScript, React, Express, NodeJS and more. 
+            Since building my first website in 2020, I've honed my skills in building <strong>intuitive user interfaces</strong> and <strong>efficient applications</strong> using JavaScript, React, Express, NodeJS and more.
             <br /><br />
-            With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will <strong>genuinely improve their lives.</strong> 
+            With a background in Customer Experience, I bring a unique perspective to my software projects. From healthtech startups to e-commerce stores, I care about connecting people with services and technologies that will <strong>genuinely improve their lives.</strong>
           </p>
           <div className={iconContainer}>
-        <a href="mailto:charlesmjchandler@gmail.com?subject=Nice to meet you!&amp;body=Hi Charlie,"><img src="icons/email.png" alt="email-icon"></img></a>
-        <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
-        <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
-      </div>
+            <a href="mailto:charlesmjchandler@gmail.com?subject=Nice to meet you!&amp;body=Hi Charlie,"><img src="icons/email.png" alt="email-icon"></img></a>
+            <a href="https://www.linkedin.com/in/charlesmchandler/" target="_blank" rel="noreferrer"><img src="icons/linkedin.png" alt="linkedin-icon"></img></a>
+            <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
+          </div>
         </div>
         <div className={introPhoto}>
           <img src="images/blob_and_photo2.png" alt="green-blob" className={introPhoto} />
         </div>
       </div>
-      <img className={wavyGraphic}src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
+      <img className={wavyGraphic} src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>
   )
 }

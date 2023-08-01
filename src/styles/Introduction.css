@@ -34,6 +34,7 @@
   width: 45%;
 }
 
+
 .hi-charlie {
   font-family: 'Reenie Beanie';
   font-style: normal;
@@ -137,6 +138,7 @@
   animation-iteration-count: 1;
   animation-direction: normal;
 }
+
 
 .slide-in-right {
   animation-name: slideInRight;
