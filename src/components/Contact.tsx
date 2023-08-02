@@ -34,7 +34,6 @@ function Contact() {
       const element = document.querySelector(".left-contact") as HTMLElement;
       if (element && isInViewport(element)) {
         element.classList.add("slide-in-left");
-        console.log("Animation triggered!");
       }
     };
   
