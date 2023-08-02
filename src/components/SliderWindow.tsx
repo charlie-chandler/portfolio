@@ -19,11 +19,7 @@ const sliderLabels =  [
     title: "Plant Lovers E-Commerce Store",
     urls: Jungle,
     route: "/jungle"
-  },
-  {
-    title: "Twitter-like Social Media Platform",
-    urls: Tweeter,
-  },
+  }
 ];
 
 export default sliderLabels;
