@@ -23,12 +23,33 @@
   font-weight: 400;
   font-size: 5.5rem;
   line-height: 95px;
+  width: fit-content;
 
   display: flex;
   justify-content: left;
   padding: 1rem 0 2rem 0;
-  color: whiter;
+
+  /* border-right: 4px solid #000000;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(40, end), blink-caret 0.5s step-end infinite alternate; */
 }
+
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+} */
 
 .subtitle {
   font-family: 'Oswald';
