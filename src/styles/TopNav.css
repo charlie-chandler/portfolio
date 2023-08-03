@@ -81,14 +81,28 @@ color: #264653;
   display: none;
   position: absolute;
   background-color: #264653;
-  border-radius-bottom: 1rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .dropdown.open {
   display: flex;
   flex-direction: column;
   top: 5rem;
-  left: 100%;
+  left: 102%;
+}
+
+.dropdown.open .nav-anchors:hover {
+  background-color: #2A9D8F;
+
+  border-radius: 0.5rem;
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+}
+
+.dropdown.open .nav-resume-btn:hover {
+  background-color: #F2E9E4;
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
 }
 
 
