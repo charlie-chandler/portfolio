@@ -1,4 +1,4 @@
-import React, { useState} from "react"
+import React, { useState, useEffect} from "react"
 import classNames from "classnames";
 import "../styles/TopNav.css";
 // @ts-ignore 
@@ -19,8 +19,26 @@ function TopNav() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log("Clicked!");
   };
+
+  //Close menu on resize
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  useEffect(() => {
+    const handleMenu = () => {
+      if (window.innerWidth > 1045 && isMenuOpen) {
+        closeMenu();
+      }
+    };
+
+    window.addEventListener("resize", handleMenu);
+
+    return () => {
+      window.removeEventListener("resize", handleMenu);
+    };
+  }, [isMenuOpen]);
 
   return (
     <nav>
