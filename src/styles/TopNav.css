@@ -72,3 +72,38 @@ line-height: 44px;
 background: #D9D9D9;
 color: #264653;
 }
+
+.menu-icon {
+  display: none;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #264653;
+  border-radius-bottom: 1rem;
+}
+
+.dropdown.open {
+  display: flex;
+  flex-direction: column;
+  top: 5rem;
+  left: 100%;
+}
+
+
+@media screen and (max-width: 1045px) {
+  .nav-links > :not(.menu-icon):not(.dropdown):not(.open) {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 32rem;
+  }
+
+
+}
