@@ -54,11 +54,12 @@
   padding: 4px;
   position: relative;
   overflow: hidden;
-  animation: revealBlock 0s var(--t) forwards;
+  animation: revealBlockHiCharlie 0s var(--t) forwards;
 }
 
 .highlight {
-  color: #2A9D8F;
+  color: transparent;
+  animation: revealBlockHighlight 0s var(--t) forwards;
 }
 
 /* title block reveal animation */
@@ -83,10 +84,16 @@
   font-size: calc(8px + 6vw);
 }
 
-@keyframes revealBlock {
-  100% {
-    color: #0f0f0f;
-  }
+@keyframes revealBlockHiCharlie {
+    100% {
+      color: #0f0f0f;
+    }
+}
+
+@keyframes revealBlockHighlight {
+    100% {
+      color: #2A9D8F;
+    }
 }
 
 @keyframes revealingIn {
