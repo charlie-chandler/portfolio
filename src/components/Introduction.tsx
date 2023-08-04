@@ -8,11 +8,10 @@ function Introduction() {
   const introContainer = classNames('intro-container');
   const introCopy = classNames('intro-copy');
 
-  const blockEffect = classNames('block-effect');
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
 
-  const introPhoto = classNames('intro-photo slide-in-right');
+  const introPhoto = classNames('intro-photo '); /* slide-in-right*/
   const iconContainer = classNames('icon-container');
   const wavyGraphic = classNames('wavy-graphic');
 
@@ -21,9 +20,7 @@ function Introduction() {
     <div className={mainContainer}>
       <div className={introContainer}>
         <div className={introCopy}>
-          <h1 className={blockEffect}>
             <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
-          </h1>
           <p>
             Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />
@@ -37,9 +34,11 @@ function Introduction() {
             <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
           </div>
         </div>
-        <div className={introPhoto}>
+{/*  */}
+        <div className="block-effect">
           <img src="images/blob_and_photo2.png" alt="green-blob" className={introPhoto} />
         </div>
+{/*  */}
       </div>
       <img className={wavyGraphic} src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>
