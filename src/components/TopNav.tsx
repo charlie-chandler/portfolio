@@ -53,7 +53,7 @@ function TopNav() {
         <HashLink to="/#contact" className={navAnchorClass}>Contact</HashLink>
         <a href="https://drive.google.com/file/d/19CjSNIQ9QFCpoGkjMhpbP_tag8le6yti/view?usp=share_link" target="_blank" rel="noreferrer" className={resumeButtonClass}>Resumé</a>
 
-        <a href="#" className="menu-icon" onClick={toggleMenu}><FontAwesomeIcon icon={faBars} size="2xl" style={{ color: "#FFFFFF"}}/></a>
+        <button className="menu-icon" onClick={toggleMenu}><FontAwesomeIcon icon={faBars} size="2xl" style={{ color: "#FFFFFF"}}/></button>
 
         <div className={`dropdown ${isMenuOpen ? 'open' : ''}`}>
           <HashLink to="/#about" className={navAnchorClass}>About</HashLink>
