@@ -6,7 +6,9 @@ function Introduction() {
 
   const mainContainer = classNames('main-container');
   const introContainer = classNames('intro-container');
-  const introCopy = classNames('intro-copy slide-in-left');
+  const introCopy = classNames('intro-copy');
+
+  const blockEffect = classNames('block-effect');
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
 
@@ -19,7 +21,9 @@ function Introduction() {
     <div className={mainContainer}>
       <div className={introContainer}>
         <div className={introCopy}>
-          <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
+          <h1 className={blockEffect}>
+            <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
+          </h1>
           <p>
             Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />

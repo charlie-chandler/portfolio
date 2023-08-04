@@ -34,6 +34,9 @@
   width: 45%;
 }
 
+:root {
+  --td: 1s;
+}
 
 .hi-charlie {
   font-family: 'Reenie Beanie';
@@ -41,15 +44,67 @@
   font-weight: 500;
   font-size: 8.2rem;
   line-height: 6rem;
-
-  display: inline;
+  /* display: inline-block; */
   background-image: linear-gradient(#F2E9E4 60%, #D9D9D9 25%);
-
-  color: #000000;
+  
+  --bc: #2A9D8F;
+  --d: 0.1s;
+  --t: calc(var(--td) + var(--d));
+  color: transparent;
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  animation: revealBlock 0s var(--t) forwards;
 }
 
 .highlight {
   color: #2A9D8F;
+}
+
+/* title block reveal animation */
+
+.hi-charlie::after {
+  content: '';
+  width: 0%;
+  height: 100%;
+  padding-bottom: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bc);
+  animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+}
+
+.highlight::after {
+  color: #2A9D8F;
+}
+
+.block-effect {
+  font-size: calc(8px + 6vw);
+}
+
+@keyframes revealBlock {
+  100% {
+    color: #0f0f0f;
+  }
+}
+
+@keyframes revealingIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes revealingOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .intro-photo {
@@ -93,6 +148,8 @@
   width: 100%;
 }
 
+/* introduction slide in animations */
+
 @keyframes slideInLeft {
   from {
     transform: translateX(-50rem);
@@ -129,7 +186,6 @@
   }
 }
 
-
 .slide-in-left {
   animation-name: slideInLeft;
   animation-duration: 1200ms;
@@ -157,3 +213,5 @@
   animation-iteration-count: 1;
   animation-direction: normal;
 }
+
+
