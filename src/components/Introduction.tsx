@@ -11,7 +11,7 @@ function Introduction() {
   const hiCharlie = classNames('hi-charlie');
   const highlight = classNames('highlight');
 
-  const introPhoto = classNames('intro-photo '); /* slide-in-right*/
+  const introPhoto = classNames('intro-photo ');
   const iconContainer = classNames('icon-container');
   const wavyGraphic = classNames('wavy-graphic');
 
@@ -34,11 +34,9 @@ function Introduction() {
             <a href="https://github.com/charlie-chandler" target="_blank" rel="noreferrer"><img src="icons/github.png" alt="github-icon"></img></a>
           </div>
         </div>
-{/*  */}
         <div className="block-effect">
           <img src="images/blob_and_photo2.png" alt="green-blob" className={introPhoto} />
         </div>
-{/*  */}
       </div>
       <img className={wavyGraphic} src="images/wavy-graphic.png" alt="beige wavy graphic"></img>
     </div>

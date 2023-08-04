@@ -5,7 +5,6 @@
 }
 
 .intro-container {
-  /* position: relative; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -96,14 +95,6 @@
     }
 }
 
-@keyframes revealBlockPhoto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 
 @keyframes revealingIn {
@@ -124,6 +115,49 @@
   }
 }
 
+/* photo reveal animation */
+
+.intro-photo {
+  width: auto;
+  height: 29rem;
+  margin-right: 4rem;
+  float: right;
+  opacity: 0;
+  animation: revealBlockPhoto 0s var(--t) forwards;
+}
+
+.block-effect {
+  --bc: #E9C46A;
+  --d: 0.1s;
+  --t: calc(var(--td) + var(--d));
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  animation: revealBlockPhoto 0s var(--t) forwards;
+}
+
+.block-effect::after {
+  content: '';
+  width: 100%;
+  height: 0%;
+  padding-bottom: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bc);
+  animation: revealingDownIn var(--td) var(--d) forwards, revealingDownOut var(--td) var(--t) forwards;
+}
+
+@keyframes revealBlockPhoto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @keyframes revealingDownIn {
   0% {
     height: 0;
@@ -142,38 +176,6 @@
   }
 }
 
-.block-effect {
-  --bc: #E9C46A;
-  --d: 0.1s;
-  --t: calc(var(--td) + var(--d));
-  padding: 4px;
-  position: relative;
-  overflow: hidden;
-  animation: revealBlockPhoto 0s var(--t) forwards;
-  /* opacity: 0; */
-}
-
-.block-effect::after {
-  content: '';
-  width: 100%;
-  height: 0%;
-  padding-bottom: 4px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* opacity: 1; */
-  background: var(--bc);
-  animation: revealingDownIn var(--td) var(--d) forwards, revealingDownOut var(--td) var(--t) forwards;
-}
-
-.intro-photo {
-  width: auto;
-  height: 29rem;
-  margin-right: 4rem;
-  float: right;
-  opacity: 0;
-  animation: revealBlockPhoto 0s var(--t) forwards;
-}
 
 .icon-container {
   position: relative;
