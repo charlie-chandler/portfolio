@@ -27,8 +27,8 @@
 
   display: flex;
   justify-content: left;
-  padding: 1rem 0 2rem 0;
-  margin-bottom: 1rem;
+  padding: 1rem 0 1rem 0;
+  /* margin-bottom: 1rem; */
 }
 
 .title-slide{
@@ -58,13 +58,18 @@
   font-weight: 300;
   font-size: 3.5rem;
   line-height: 95px;
+  width: fit-content;
   
   display: flex;
   justify-content: left;
-  padding: 0 0 3rem 0;
-  text-decoration: white wavy overline;
+  /* padding: 2rem 0 0 0;
+  margin: 1rem 0 3rem 0;  */
+  padding: 0 0 0 0;
+  margin: 0 0 3rem 0;
+  /* border-top: 0.3rem solid #FFFFFF; */
+  text-decoration: transparent wavy overline;
 
-  --bc: #E8DAD1;
+  --bc: #E9C46A;
   --d: 0.3s;
   --t: calc(var(--td) + var(--d));
   color: transparent;
@@ -287,7 +292,8 @@ button:hover {
 
 @keyframes revealBlock {
   100% {
-    color: #0f0f0f;
+    color: #1a3039;
+    /* text-decoration: #E9C46A wavy overline; */
   }
 }
 
