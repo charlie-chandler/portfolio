@@ -20,7 +20,7 @@ function Introduction() {
     <div className={mainContainer}>
       <div className={introContainer}>
         <div className={introCopy}>
-            <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
+          <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
           <p>
             Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />
