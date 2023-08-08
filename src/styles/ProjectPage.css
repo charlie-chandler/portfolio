@@ -66,7 +66,6 @@
   margin: 1rem 0 3rem 0;  */
   padding: 0 0 0 0;
   margin: 0 0 3rem 0;
-  /* border-top: 0.3rem solid #FFFFFF; */
   text-decoration: transparent wavy overline;
 
   --bc: #E9C46A;
@@ -293,7 +292,6 @@ button:hover {
 @keyframes revealBlock {
   100% {
     color: #1a3039;
-    /* text-decoration: #E9C46A wavy overline; */
   }
 }
 
