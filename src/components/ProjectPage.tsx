@@ -39,7 +39,8 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
 
   const upperBackground = classNames("upper-background");
   const lowerBackground = classNames("lower-background");
-  const title = classNames('project-title');
+  const upperTitle = classNames('project-title title-slide');
+  const lowerTitle = classNames('project-title');
   const subtitle = classNames('subtitle');
 
   const projectContainer = classNames('project-container');
@@ -59,7 +60,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
     <>
       <TopNav />
       <div className={upperBackground}>
-        <h1 className={title}>{projectTitle}</h1>
+        <h1 className={upperTitle}>{projectTitle}</h1>
         <h3 className={subtitle}>{projectSubtitle}</h3>
         <div className={projectContainer}>
           <div className={leftProjContainer}>
@@ -103,14 +104,14 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
         <div className={writeupContainer}>
           <div className={challengesContainer}>
             <img src={image2} alt="demo gif" />
-            <h1 className={title}>Challenges</h1>
+            <h1 className={lowerTitle}>Challenges</h1>
             <p>{challenge1}
               <br /><br />
               {challenge2}
             </p>
           </div>
           <div className={goalContainer}>
-            <h1 className={title}>Project Goal</h1>
+            <h1 className={lowerTitle}>Project Goal</h1>
             <p>{goal1}
               <br /><br />
               {goal2}
