@@ -11,11 +11,13 @@ function Skills() {
   const container = classNames('skills-container');
 
   const row = classNames('row');
+  const secondRow = classNames('row second-row')
   const skillBoxGreen = classNames('skill-box-green');
   const skillBoxGrey = classNames('skill-box-grey');
   const skillIconsRow = classNames('skill-icons-row');
   const skillStamp = classNames('skill-stamp');
   const tilty = classNames('tilty');
+  const tiltyMargin = classNames('tilty tilty-margin');
 
 
   return (
@@ -25,7 +27,7 @@ function Skills() {
 
         <div className={row}>
           {/* Languages */}
-          <Tilty className={tilty}>
+          <Tilty className={tiltyMargin}>
           <div className={skillBoxGreen}>
             <h2>Languages</h2>
             <div className={skillIconsRow}>
@@ -54,7 +56,7 @@ function Skills() {
           </Tilty>
 
           {/* Frameworks/Libraries/Environments */}
-          <Tilty>
+          <Tilty className={tilty}>
           <div className={skillBoxGrey}>
             <h2>Frameworks/Libraries/Environments</h2>
             <div className={skillIconsRow}>
@@ -71,7 +73,7 @@ function Skills() {
                 <h5>NodeJS</h5>
               </div>
               <div className={skillStamp}>
-                <img src='icons/Rails.png' alt="rails icon"></img>
+                <img src='icons/rails.png' alt="rails icon"></img>
                 <h5>Rails</h5>
               </div>
               <div className={skillStamp}>
@@ -92,9 +94,9 @@ function Skills() {
         </div>
 
 
-        <div className={row}>
+        <div className={secondRow}>
           {/* Systems/Databases */}
-          <Tilty className={tilty}>
+          <Tilty className={tiltyMargin}>
           <div className={skillBoxGrey}>
             <h2>Systems/Databases</h2>
             <div className={skillIconsRow}>
@@ -116,7 +118,7 @@ function Skills() {
 
 
           {/* Testing */}
-          <Tilty>
+          <Tilty className={tilty}>
           <div className={skillBoxGreen}>
             <h2>Testing</h2>
             <div className={skillIconsRow}>
@@ -152,7 +154,7 @@ function Skills() {
 
         <div className={row}>
           {/* Tools */}
-          <Tilty>
+          <Tilty className={tilty}>
           <div className={skillBoxGreen}>
             <h2>Tools</h2>
             <div className={skillIconsRow}>
