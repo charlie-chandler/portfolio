@@ -22,7 +22,7 @@ function Introduction() {
         <div className={introCopy}>
           <div className={hiCharlie}>Hi I'm <span className={highlight}>Charlie</span></div>
           <p>
-            Full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
+            I'm a full stack developer in Vancouver with a passion for <strong>problem-solving</strong> and optimization.
             <br /><br />
             Since building my first website in 2020, I've honed my skills in building <strong>intuitive user interfaces</strong> and <strong>efficient applications</strong> using JavaScript, React, Express, NodeJS and more.
             <br /><br />

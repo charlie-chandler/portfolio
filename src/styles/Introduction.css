@@ -206,3 +206,40 @@
 }
 
 
+/* Responsive CSS */
+
+@media screen and (max-width: 1045px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+      width: auto;
+      margin: auto;
+      padding: 18rem 0 0 0;
+    }
+    .hi-charlie {
+      width: 80%;
+      font-size: 11rem;
+    }
+    .intro-copy {
+      width: 80%;
+      align-items: center;
+    }
+    .intro-photo {
+      order: 0;
+      margin-bottom: 5rem;
+      height: 32rem;
+    }
+    .intro-copy {
+      order: 1;
+    }
+    .icon-container {
+      top: 10rem;
+      left: -18rem;
+    }
+}
+
+@media screen and (min-width: 1045px) and (max-width: 1560px) {
+  .hi-charlie {
+    font-size: 7.7rem;
+  }
+}
