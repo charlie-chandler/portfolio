@@ -189,7 +189,7 @@
 
 /* Responsive CSS */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1045px) {
   .timeline {
     margin: 50px auto;
   }
@@ -206,8 +206,8 @@
   }
 
   .text-box {
-    font-size: 2rem;
-    width: 90%;
+    font-size: 1.5rem;
+    width: 70%;
   }
 
   .text-box small {
