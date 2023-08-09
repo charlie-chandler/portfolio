@@ -114,7 +114,6 @@
 }
 
 .right-container img {
-  /* left: -67px; */
   left: -16%;
 }
 
@@ -197,6 +196,7 @@
 
   .timeline::after {
     left: 31px;
+    height: 90rem;
   }
 
   .container {
@@ -217,11 +217,19 @@
     line-height: 2.5rem;
   }
 
+  .left-container {
+    padding-left: 11rem;
+  }
+
   .right-container {
     left: 0;
   }
 
-  .left-container img, .right-container img {
+  .left-container img {
+    left: 2.5rem;
+  }
+
+  .right-container img {
     left: -1rem;
   }
 
