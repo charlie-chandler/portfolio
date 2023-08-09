@@ -38,8 +38,8 @@
 }
 
 .slider-container {
-  height: 55rem;
-  width: 67rem;
+  height: fit-content;
+  width: fit-content;
   position: relative;
   font-family: 'Lato';
   margin-left: auto;
@@ -176,4 +176,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1045px) {
+  .slider-container {
+    width: 80%;
+  }
+  .slide-image {
+    height: 35rem;
+  }
+
 }
