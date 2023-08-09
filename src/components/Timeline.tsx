@@ -59,7 +59,7 @@ function Timeline() {
             <p>Built my first website to track details of my favourite food experiences in Vancouver. </p>
             <ul>
               <li>Had some time during lockdown so learnt how to build a basic site using HTML and CSS.</li>
-              <li>It was not very good! But I loved discovering how creating coding is, and the experience stuck with me.</li>
+              <li>It was not very good! But I loved discovering how creative coding is, and the experience stuck with me.</li>
               <li>Taught me that I should outsource my marketing because this name is cheesy 😅.</li>
             </ul>
             <span className={leftContainerArrow}></span>
