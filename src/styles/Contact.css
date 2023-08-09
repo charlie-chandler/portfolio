@@ -89,7 +89,7 @@
   padding: 0.1rem 0 0.1rem 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -117,4 +117,17 @@
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .left-contact {
+    width: 60%;
+  }
+  .right-contact {
+    margin: auto;
+    padding-top: 3rem;
+  }
 }
