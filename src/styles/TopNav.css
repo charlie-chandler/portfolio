@@ -82,13 +82,17 @@ color: #264653;
   position: absolute;
   background-color: #264653;
   border-radius: 0 0 1rem 1rem;
+  box-sizing: border-box;
+  border-width: 0 5px 5px 5px;
+  border-color: rgb(194, 47, 47);
+  width: 10rem;
 }
 
 .dropdown.open {
   display: flex;
   flex-direction: column;
   top: 5rem;
-  left: 102%;
+  left: 93%;
 }
 
 .dropdown.open .nav-anchors:hover {
@@ -101,6 +105,7 @@ color: #264653;
 
 .dropdown.open .nav-resume-btn:hover {
   background-color: #F2E9E4;
+  color: #2A9D8F;
   transition: all .2s ease-in-out; 
   transform: scale(1.1);
 }
@@ -116,7 +121,7 @@ color: #264653;
     justify-content: flex-end;
     align-items: center;
     margin-top: 0.5rem;
-    margin-left: 32rem;
+    margin-left: 30rem;
   }
 
 
