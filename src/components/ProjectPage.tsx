@@ -100,6 +100,8 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
         </div>
       </div>
       <img src="images/wavy-graphic-2.png" alt="wavy graphic" className="project-page-border"/>
+      
+      {/* Lower half */}
       <div className={lowerBackground}>
         <div className={writeupContainer}>
           <div className={challengesContainer}>
