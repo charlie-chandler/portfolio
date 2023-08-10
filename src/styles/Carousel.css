@@ -179,6 +179,9 @@ html {
 }
 
 @media screen and (max-width: 1045px) {
+  .projects-background {
+    min-height: 70rem;
+  }
   .slider-container {
     width: 80%;
   }
