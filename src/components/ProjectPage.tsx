@@ -57,7 +57,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   const goalContainer = classNames('goal-container');
 
   return (
-    <>
+    <div className="main-container">
       <TopNav />
       <div className={upperBackground}>
         <h1 className={upperTitle}>{projectTitle}</h1>
@@ -66,10 +66,10 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
           <div className={leftProjContainer}>
 
             <div className={stackList}>
-              {stack.map((tech) => {
+              {stack.map((tech, index) => {
                 const techWithoutPeriods = tech.replace(/\./g, '').toLowerCase();
                 return (
-                  <div className={skillStamp}>
+                  <div className={skillStamp} key={index}>
                     <img src={`icons/${techWithoutPeriods}.png`} alt={`${techWithoutPeriods} icon`}></img>
                     <h5>{tech}</h5>
                   </div>
@@ -130,7 +130,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
           </button>
         </Link>
       </div >
-    </>
+    </div>
   )
 }
 
