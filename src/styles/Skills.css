@@ -102,6 +102,14 @@
 /* Responsive CSS */
 
 @media screen and (max-width: 1465px) {
+  .title {
+    position: relative;
+    left: -2%;
+  }
+  .skills-container {
+    position: relative;
+    left: -2%;
+  }
   .row {
     display: flex;
     flex-direction: column;
