@@ -54,7 +54,7 @@ function Contact() {
         <div className={leftContact}>
           <div className={callToAction}>
             <p>
-              If you consider me a good candidate for an <span>open position</span>, or you'd like to discuss a freelance project, or even just want to <span>say hello</span>, contact me on LinkedIn, or send me a email!
+              If you consider me a good candidate for an <span>open position</span>, or you'd like to discuss a freelance project, or even just want to <span>say hello</span>, I'd love to hear from you!
             </p>
           </div>
           <ul className={contactList}>
