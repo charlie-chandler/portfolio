@@ -192,6 +192,8 @@
 @media screen and (max-width: 1045px) {
   .timeline {
     margin: 50px auto;
+    margin-left: 5rem;
+
   }
 
   .timeline::after {
@@ -207,7 +209,7 @@
 
   .text-box {
     font-size: 1.5rem;
-    width: 70%;
+    width: 80%;
   }
 
   .text-box small {
