@@ -4,7 +4,7 @@ import "../styles/Timeline.css";
 
 function Timeline() {
 
-  const background = classNames('background');
+  const background = classNames('timeline-background');
   const title = classNames('title', 'timeline-title');
   const timeline = classNames('timeline');
 
