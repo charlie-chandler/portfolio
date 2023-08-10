@@ -218,7 +218,7 @@
     }
     .hi-charlie {
       width: 80%;
-      font-size: 11rem;
+      font-size: 6.9rem;
     }
     .intro-copy {
       width: 80%;
@@ -226,6 +226,7 @@
     }
     .intro-photo {
       order: 0;
+      margin: auto;
       margin-bottom: 5rem;
       height: 32rem;
     }
