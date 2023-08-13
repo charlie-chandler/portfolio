@@ -82,9 +82,6 @@ color: #264653;
   position: absolute;
   background-color: #264653;
   border-radius: 0 0 1rem 1rem;
-  box-sizing: border-box;
-  border-width: 0 5px 5px 5px;
-  border-color: rgb(194, 47, 47);
   width: 10rem;
 }
 
@@ -116,6 +113,7 @@ color: #264653;
   .nav-links > :not(.menu-icon):not(.dropdown):not(.open) {
     display: none;
   }
+
   .menu-icon {
     display: flex;
     justify-content: flex-end;
@@ -123,6 +121,39 @@ color: #264653;
     margin-top: 0.5rem;
     margin-left: 30rem;
   }
+}
 
+@media screen and (max-width: 670px) {
+ .nav-charlie {
+  font-size: 2.2rem;
+  left: 1rem;
+ } 
 
+ .nav-chandler {
+  font-size: 2.2rem;
+  left: 8.3rem;
+ }
+ .menu-icon {
+  margin-top: 0.7rem;
+  margin-left: 31.5rem;
+}
+.nav-anchors{
+  font-size: 23px;
+  line-height: 25px;
+}
+.nav-resume-btn {
+  font-size: 23px;
+  line-height: 35px;
+  padding: 0 0.5rem 0 0.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;  
+}
+.dropdown {
+  width: 6rem;
+  font-size: 1rem;
+}
+.dropdown.open {
+  top: 5rem;
+  left: 108%;
+}
 }
