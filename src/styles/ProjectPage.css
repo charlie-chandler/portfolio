@@ -394,17 +394,26 @@ button:hover {
   }
 }
 
-
+/* Mobile view */
 
 @media screen and (max-width: 670px) {
-  .main-container{
+  .main-container {
     width: 100%;
-    }
-    
+  }
+
   .upper-background {
     width: 100%;
     height: fit-content;
-    padding: 10rem 0 2rem 3rem;
+    padding: 7rem 0 2rem 2rem;
+  }
+
+  .project-title {
+    font-size: 4.5rem;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+    line-height: 50px;
   }
 
   .project-container {
@@ -413,12 +422,26 @@ button:hover {
 
   .right-project-container {
     width: 100%;
+    height: fit-content;
     margin: auto;
+    padding-right: 1.5rem;
     align-items: center;
   }
 
+  .right-project-container img {
+    height: 13rem;
+    width: 19rem;
+    margin: auto;
+  }
+
+  .right-project-container button {
+    height: 2rem;
+    width: 6.5rem;
+    font-size: 0.8rem;
+  }
+
   .left-project-container {
-    width: 100%;
+    width: fit-content;
     min-height: fit-content;
     margin: auto;
   }
@@ -428,16 +451,24 @@ button:hover {
   }
 
   .feature-list {
-    padding-left: 2rem;
+    font-size: 1rem;
+    line-height: 40px;
+    margin-right: 1rem;
   }
 
   .stack-list {
-    margin-left: 5rem;
+    margin-left: 0rem;
+    width: fit-content;
+  }
+
+  .skill-stamp img {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .lower-background {
     width: 100%;
-    padding: 5rem 2rem 2rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
   }
 
   .writeup-container {
@@ -447,6 +478,7 @@ button:hover {
 
   .writeup-container .project-title {
     margin-bottom: 2rem;
+    font-size: 3.2rem
   }
 
   .goal-container {
@@ -454,29 +486,42 @@ button:hover {
     width: 90%;
     align-items: center;
     margin-bottom: 5rem;
+    margin-left: 0rem;
   }
 
   .goal-container img {
     margin-top: 3rem;
+    height: 13rem;
+    width: 20rem;
+  }
+
+  .goal-container p {
+    font-size: 1.2rem;
   }
 
   .challenges-container {
     order: 1;
     width: 90%;
     align-items: center;
-    padding-left: 5rem;
+    margin-right: 0;
   }
 
   .challenges-container p {
     order: 0;
-    margin-bottom: 3rem;
+    font-size: 1.2rem;
   }
 
   .challenges-container img {
-    order: 1
+    order: 1;
+    margin-top: 3rem;
+    height: 13rem;
+    width: 20rem;
   }
 
   .lower-background button {
+    height: 2rem;
+    width: 6.5rem;
+    font-size: 0.8rem;
     margin-top: 0;
   }
 }
