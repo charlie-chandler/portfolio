@@ -217,8 +217,8 @@
       padding: 14rem 0 0 0;
     }
     .hi-charlie {
-      width: 80%;
-      font-size: 6rem;
+      width: 70%;
+      font-size: 6.8rem;
     }
     .intro-copy {
       width: 80%;
@@ -242,5 +242,16 @@
 @media screen and (min-width: 1045px) and (max-width: 1560px) {
   .hi-charlie {
     font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .hi-charlie {
+    font-size: 6rem;
+    width: 80%;
+  }
+  .icon-container {
+    top: 3.5rem;
+    left: -10rem;
   }
 }
