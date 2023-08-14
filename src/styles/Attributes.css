@@ -73,3 +73,9 @@
   width: 85%;
  }
 }
+
+ @media screen and (max-width: 650px) {
+  .title {
+    padding: 4rem 0 3rem 6rem;
+ }
+}
