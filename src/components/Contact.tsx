@@ -31,9 +31,10 @@ function Contact() {
   
     // Function to handle the scroll event
     const handleScroll = () => {
-      const element = document.querySelector(".left-contact") as HTMLElement;
-      if (element && isInViewport(element)) {
-        element.classList.add("slide-in-left");
+      const callToActionElement = document.querySelector(".call-to-action") as HTMLElement;
+      const leftContactElement = document.querySelector(".left-contact") as HTMLElement;
+      if (callToActionElement && isInViewport(callToActionElement)) {
+        leftContactElement.classList.add("slide-in-left");
       }
     };
   
