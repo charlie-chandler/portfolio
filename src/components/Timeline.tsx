@@ -29,8 +29,8 @@ function Timeline() {
             </p>
             <ul>
               <li>Completed the full-time Web Development Diploma at Lighthouse Labs.</li>
-              <li>Learned to build end-to-end web applications in collaboration with other devs (click <strong>Skills</strong> up top ⬆️ for full stack info)</li>
-              <li>The third, most important secret of what I learned goes here.</li>
+              <li>Learned to build end-to-end web applications in collaboration with other devs (click <strong>Skills</strong> up top ⬆️ for full stack info).</li>
+              <li>Set a foundation for my self-directed technical learning.</li>
             </ul>
             <span className={leftContainerArrow}></span>
           </div>
