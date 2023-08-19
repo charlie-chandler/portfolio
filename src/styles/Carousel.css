@@ -56,7 +56,7 @@
 }
 
 .slides {
-  height: var(--heights);
+  /* height: var(--heights); */
   width: var(--widths);
   position: relative;
 }
@@ -134,9 +134,9 @@
 .all-dots {
   width: 100%;
   height: 2rem;
-  position: absolute;
+  position: relative;
   display: flex;
-  top: 99%;
+  padding-top: 1rem;
   justify-content: center;
   z-index: 200;
 }
@@ -185,6 +185,6 @@ html {
     height: 35rem;
   }
   .all-dots{
-    top: 102%;
+    padding-top: 1rem;
   }
 }
